@@ -12,7 +12,6 @@ Generation) pipeline searches through procurement policy documents
 and vendor contracts to find relevant context, then uses an LLM 
 to generate an explanation with a recommended action.
 
-# Feature Descriptions
 ## Feature Descriptions
 
 | Feature | Type | Description |
