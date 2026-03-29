@@ -37,3 +37,4 @@ to generate an explanation with a recommended action.
 ### FAST API
 
 1. pip install fastapi uvicorn
+2. Start the server uvicorn api:app --reload
