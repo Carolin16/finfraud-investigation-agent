@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-84606
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2024-09-07
+PO Reference    : PO-73140
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-84606 submitted for $8,141.62 against PO-73140.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $7,979.04.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Warehouse log shows no inbound delivery from SafetyFirst Ltd on 2024-09-07.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 28
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

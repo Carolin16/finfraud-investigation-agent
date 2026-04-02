@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-1700
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2024-09-07
+PO Reference    : PO-18815
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $44,324.29 against 
+contracted PO rate of $34,294.66 on PO-18815.
+Deviation of 29.25% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $10,029.63.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $10,029.63 rejected.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

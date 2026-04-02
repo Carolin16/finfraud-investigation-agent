@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-60168
+Vendor          : NewVendor Corp 5 (V-NEW-005)
+Category        : medical
+Invoice Date    : 2025-05-15
+PO Reference    : PO-87914
+Assessed By     : Mike Donovan, Vendor Risk Lead
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 5 for $52,913.52.
+Vendor registered as new supplier 14 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $48,163.39 — unreconciled gap of $4,750.13.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Company registration verified but directors flagged in adverse media search.
+Vendor onboarding checklist initiated by Mike Donovan.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Payment held. Vendor failed enhanced due diligence checks.
+Days to resolve : 28
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Mike Donovan, Vendor Risk Lead

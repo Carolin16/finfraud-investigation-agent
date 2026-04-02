@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-11977
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2025-06-20
+PO Reference    : PO-31990
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-11977 submitted for $8,321.06 against PO-31990.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $8,569.92.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Warehouse log shows no inbound delivery from SafetyFirst Ltd on 2025-06-20.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 17
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

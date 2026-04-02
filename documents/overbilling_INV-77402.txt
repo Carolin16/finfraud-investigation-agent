@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-77402
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2026-01-07
+PO Reference    : PO-92379
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $129,831.46 against 
+contracted PO rate of $90,274.70 on PO-92379.
+Deviation of 43.82% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $39,556.76.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $39,556.76.
+Days to resolve : 15
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

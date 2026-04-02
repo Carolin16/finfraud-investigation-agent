@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-84323
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-11-19
+PO Reference    : PO-16464
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $9,288.54 against 
+contracted PO rate of $5,938.30 on PO-16464.
+Deviation of 56.42% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $3,350.24.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-66949
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2024-07-10
+PO Reference    : PO-39727
+Flagged By      : AP Automated Detection System
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-66949 for $9,134.26 submitted against PO-39727.
+A previous invoice from the same vendor on the same PO was 
+received only 7 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor stated their billing system resubmitted automatically.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-66949 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 4
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Mark Reynolds, AP Manager

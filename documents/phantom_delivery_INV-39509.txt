@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-39509
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2024-12-28
+PO Reference    : PO-10610
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-39509 submitted for $92,106.88 against PO-10610.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $91,229.02.
+
+INVESTIGATION
+-------------
+Vendor stated delivery was made but could not provide proof of receipt.
+Site inspection confirmed no goods from ProMed Devices on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 29
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

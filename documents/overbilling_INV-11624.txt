@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-11624
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2025-11-02
+PO Reference    : PO-37718
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $11,442.74 against 
+contracted PO rate of $8,903.40 on PO-37718.
+Deviation of 28.52% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $2,539.34.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

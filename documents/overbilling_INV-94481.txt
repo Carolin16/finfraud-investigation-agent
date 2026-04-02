@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-94481
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-05-05
+PO Reference    : PO-26302
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $68,493.08 against 
+contracted PO rate of $55,757.27 on PO-26302.
+Deviation of 22.84% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $12,735.81.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 14
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-41587
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-09-07
+PO Reference    : PO-37760
+Flagged By      : AP Automated Detection System
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-41587 for $5,640.86 submitted against PO-37760.
+A previous invoice from the same vendor on the same PO was 
+received only 4 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor stated their billing system resubmitted automatically.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-41587 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Lisa Okonkwo, AP Manager

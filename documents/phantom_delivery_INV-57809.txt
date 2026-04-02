@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-57809
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2025-07-22
+PO Reference    : PO-54056
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-57809 submitted for $184,858.77 against PO-54056.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $179,949.16.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Warehouse log shows no inbound delivery from BioTech Equipment Ltd on 2025-07-22.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 23
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

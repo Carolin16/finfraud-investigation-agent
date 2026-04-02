@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-64099
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-12-11
+PO Reference    : PO-53321
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $65,606.95 against 
+contracted PO rate of $43,538.16 on PO-53321.
+Deviation of 50.69% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $22,068.79.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 12
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

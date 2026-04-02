@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-25560
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-10-10
+PO Reference    : PO-12849
+Flagged By      : AP Automated Detection System
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-25560 for $10,809.90 submitted against PO-12849.
+A previous invoice from the same vendor on the same PO was 
+received only 4 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor stated their billing system resubmitted automatically.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-25560 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Lisa Okonkwo, AP Manager

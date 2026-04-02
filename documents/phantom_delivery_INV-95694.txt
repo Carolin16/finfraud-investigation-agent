@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-95694
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2025-11-21
+PO Reference    : PO-15785
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-95694 submitted for $8,369.00 against PO-15785.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $8,412.09.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Site inspection confirmed no goods from SafetyFirst Ltd on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 14
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

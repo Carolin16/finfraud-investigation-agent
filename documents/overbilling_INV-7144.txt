@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-7144
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2024-06-21
+PO Reference    : PO-20708
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $13,991.97 against 
+contracted PO rate of $10,982.22 on PO-20708.
+Deviation of 27.41% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $3,009.75.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $3,009.75.
+Days to resolve : 13
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

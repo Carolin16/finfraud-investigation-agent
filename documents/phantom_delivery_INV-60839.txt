@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-60839
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-12-21
+PO Reference    : PO-75370
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-60839 submitted for $54,721.80 against PO-75370.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $53,883.49.
+
+INVESTIGATION
+-------------
+Vendor stated delivery was made but could not provide proof of receipt.
+Carrier records checked — no shipment registered against PO-75370.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 14
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

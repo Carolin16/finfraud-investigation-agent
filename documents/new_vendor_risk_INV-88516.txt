@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-88516
+Vendor          : NewVendor Corp 9 (V-NEW-009)
+Category        : IT
+Invoice Date    : 2025-10-09
+PO Reference    : PO-35388
+Assessed By     : Mike Donovan, Vendor Risk Lead
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 9 for $168,154.90.
+Vendor registered as new supplier 1 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $155,620.75 — unreconciled gap of $12,534.15.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+No verifiable trading history found on Companies House or equivalent.
+Vendor onboarding checklist initiated by Mike Donovan.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Payment held. Vendor failed enhanced due diligence checks.
+Days to resolve : 12
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Mike Donovan, Vendor Risk Lead

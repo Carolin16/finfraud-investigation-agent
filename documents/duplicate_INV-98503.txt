@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-98503
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2024-05-11
+PO Reference    : PO-52237
+Flagged By      : AP Automated Detection System
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-98503 for $191,756.06 submitted against PO-52237.
+A previous invoice from the same vendor on the same PO was 
+received only 6 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor stated their billing system resubmitted automatically.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-98503 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Lisa Okonkwo, AP Manager

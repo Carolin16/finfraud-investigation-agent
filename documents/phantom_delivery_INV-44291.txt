@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-44291
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-01-12
+PO Reference    : PO-42946
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-44291 submitted for $13,047.37 against PO-42946.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $13,030.31.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Carrier records checked — no shipment registered against PO-42946.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 14
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-58232
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-07-25
+PO Reference    : PO-92012
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-58232 submitted for $6,323.67 against PO-92012.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $6,401.89.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Carrier records checked — no shipment registered against PO-92012.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 18
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

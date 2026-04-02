@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-92556
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2024-09-22
+PO Reference    : PO-90258
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-92556 submitted for $8,829.04 against PO-90258.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $8,789.54.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Carrier records checked — no shipment registered against PO-90258.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 24
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

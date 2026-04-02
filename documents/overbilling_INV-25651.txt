@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-25651
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-09-07
+PO Reference    : PO-50461
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $75,227.42 against 
+contracted PO rate of $47,142.47 on PO-50461.
+Deviation of 59.57% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $28,084.95.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $28,084.95 rejected.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

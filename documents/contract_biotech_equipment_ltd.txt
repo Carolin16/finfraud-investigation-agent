@@ -1,0 +1,60 @@
+VENDOR FRAMEWORK CONTRACT — SUMMARY DOCUMENT
+============================================================
+Vendor Name    : BioTech Equipment Ltd
+Vendor ID      : V-002
+Category       : MEDICAL
+Approved Since : June 2018
+Approved By    : Emma Thornton, Head of Procurement
+============================================================
+
+1. CONTRACTED RATE
+The contracted rate for BioTech Equipment Ltd is set within the
+following band:
+
+  Minimum rate  : $157,500.00 per transaction/shipment
+  Typical rate  : $175,000.00 per transaction/shipment
+  Maximum rate  : $192,500.00 per transaction/shipment
+
+These rates reflect the agreed pricing for standard medical
+goods and services as specified in the master vendor agreement.
+
+2. VARIANCE CLAUSE
+Invoices may deviate from the contracted typical rate by a maximum of
+5% without requiring additional approvals, subject to the
+three-way match passing.
+
+Any invoice exceeding the contracted maximum rate of
+$192,500.00 requires written justification from the vendor
+and approval from Emma Thornton, Head of Procurement before payment is released.
+
+Rate changes above the maximum contracted rate must be agreed in writing
+at least 30 days before the new rate invoice is submitted.
+
+3. PAYMENT TERMS
+Payment terms: Net 45 from confirmed Goods Receipt date.
+Late payment may attract a penalty of 2% per month on overdue amounts.
+
+4. HIGH-VALUE INVOICE THRESHOLD
+Invoices above $201,250 require escalated approval:
+  — Emma Thornton, Head of Procurement
+  — Head of Finance sign-off
+
+5. THREE-WAY MATCH REQUIREMENT
+All invoices from BioTech Equipment Ltd must pass a three-way match
+between invoice amount, PO amount, and Goods Receipt amount before
+payment is released. A zero Goods Receipt will result in automatic
+payment block.
+
+6. ANNUAL RATE REVIEW
+Contract rates are reviewed annually each January. Rate change
+proposals must be submitted by the vendor at least 60 days before the
+review date.
+
+7. VENDOR NOTES
+High-value medical equipment supplier. Invoices above $180,000 require CFO sign-off.
+
+8. CONTRACT STATUS
+Active — in good standing as of the date of this summary.
+
+Signed by    : Emma Thornton, Head of Procurement
+Reference    : VENDOR-CONTRACT-V-002-2024

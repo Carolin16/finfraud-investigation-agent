@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-25202
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-10-05
+PO Reference    : PO-72247
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-25202 submitted for $12,220.00 against PO-72247.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $11,871.34.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Carrier records checked — no shipment registered against PO-72247.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 27
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-4836
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2024-05-21
+PO Reference    : PO-15908
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-4836 submitted for $10,828.43 against PO-15908.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $10,905.90.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Warehouse log shows no inbound delivery from MedCo Supplies Inc on 2024-05-21.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 18
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-84428
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-04-28
+PO Reference    : PO-18052
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-84428 submitted for $88,649.77 against PO-18052.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $90,123.63.
+
+INVESTIGATION
+-------------
+Vendor stated delivery was made but could not provide proof of receipt.
+Site inspection confirmed no goods from ProMed Devices on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 19
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

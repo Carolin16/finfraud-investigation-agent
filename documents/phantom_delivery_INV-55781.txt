@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-55781
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-01-01
+PO Reference    : PO-70556
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-55781 submitted for $11,121.03 against PO-70556.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $11,163.91.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Site inspection confirmed no goods from MedCo Supplies Inc on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 19
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

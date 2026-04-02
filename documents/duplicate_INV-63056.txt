@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-63056
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-02-22
+PO Reference    : PO-67275
+Flagged By      : AP Automated Detection System
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-63056 for $52,659.33 submitted against PO-67275.
+A previous invoice from the same vendor on the same PO was 
+received only 4 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor acknowledged the duplicate and withdrew the second invoice.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-63056 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 2
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Mark Reynolds, AP Manager

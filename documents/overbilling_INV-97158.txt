@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-97158
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-06-18
+PO Reference    : PO-80031
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $34,082.99 against 
+contracted PO rate of $26,832.19 on PO-80031.
+Deviation of 27.02% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $7,250.80.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $7,250.80.
+Days to resolve : 17
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

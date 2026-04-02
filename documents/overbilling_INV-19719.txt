@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-19719
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-10-03
+PO Reference    : PO-48567
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $17,841.58 against 
+contracted PO rate of $11,991.81 on PO-48567.
+Deviation of 48.78% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $5,849.77.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-99233
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-11-12
+PO Reference    : PO-20541
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $65,807.98 against 
+contracted PO rate of $52,823.24 on PO-20541.
+Deviation of 24.58% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $12,984.74.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 16
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

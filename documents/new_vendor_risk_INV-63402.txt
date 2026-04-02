@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-63402
+Vendor          : NewVendor Corp 15 (V-NEW-015)
+Category        : IT
+Invoice Date    : 2026-01-15
+PO Reference    : PO-15114
+Assessed By     : Aisha Yusuf, Vendor Risk Lead
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 15 for $167,209.77.
+Vendor registered as new supplier 10 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $139,428.48 — unreconciled gap of $27,781.29.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+No verifiable trading history found on Companies House or equivalent.
+Vendor onboarding checklist initiated by Aisha Yusuf.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Invoice approved after procurement confirmed vendor legitimacy.
+Days to resolve : 29
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Aisha Yusuf, Vendor Risk Lead

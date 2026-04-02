@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-30940
+Vendor          : NewVendor Corp 2 (V-NEW-002)
+Category        : industrial
+Invoice Date    : 2024-06-13
+PO Reference    : PO-52927
+Assessed By     : Aisha Yusuf, Vendor Risk Lead
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 2 for $77,899.72.
+Vendor registered as new supplier 10 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $67,429.51 — unreconciled gap of $10,470.21.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Company registration verified but directors flagged in adverse media search.
+Vendor onboarding checklist initiated by Aisha Yusuf.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Payment held. Vendor failed enhanced due diligence checks.
+Days to resolve : 9
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Aisha Yusuf, Vendor Risk Lead

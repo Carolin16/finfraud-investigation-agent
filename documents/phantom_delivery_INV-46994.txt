@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-46994
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2024-03-30
+PO Reference    : PO-20916
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-46994 submitted for $9,192.52 against PO-20916.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $9,319.62.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Carrier records checked — no shipment registered against PO-20916.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 26
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

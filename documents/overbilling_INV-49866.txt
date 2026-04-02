@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-49866
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-12-17
+PO Reference    : PO-30879
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,923.51 against 
+contracted PO rate of $1,926.05 on PO-30879.
+Deviation of 51.79% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $997.46.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $997.46 rejected.
+Days to resolve : 17
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

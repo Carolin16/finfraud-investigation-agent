@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-10963
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-09-14
+PO Reference    : PO-81584
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-10963 submitted for $52,346.25 against PO-81584.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $50,875.98.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Warehouse log shows no inbound delivery from GlobalParts Co on 2025-09-14.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 15
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

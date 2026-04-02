@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-29675
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2026-01-18
+PO Reference    : PO-67246
+Flagged By      : AP Automated Detection System
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-29675 for $48,834.89 submitted against PO-67246.
+A previous invoice from the same vendor on the same PO was 
+received only 2 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor confirmed duplicate submission was a system error on their side.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-29675 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 2
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Sarah Chen, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-13639
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-09-21
+PO Reference    : PO-12719
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $78,518.05 against 
+contracted PO rate of $52,354.49 on PO-12719.
+Deviation of 49.97% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $26,163.56.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $26,163.56.
+Days to resolve : 14
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

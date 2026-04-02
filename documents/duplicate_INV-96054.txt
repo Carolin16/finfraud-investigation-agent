@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-96054
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-04-27
+PO Reference    : PO-60647
+Flagged By      : AP Automated Detection System
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-96054 for $11,746.21 submitted against PO-60647.
+A previous invoice from the same vendor on the same PO was 
+received only 7 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor stated their billing system resubmitted automatically.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-96054 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : James Patel, AP Manager

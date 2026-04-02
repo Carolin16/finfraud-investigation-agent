@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-52542
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2025-07-25
+PO Reference    : PO-50096
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $12,857.16 against 
+contracted PO rate of $8,788.13 on PO-50096.
+Deviation of 46.30% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $4,069.03.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $4,069.03.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

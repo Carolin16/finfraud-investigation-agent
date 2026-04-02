@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-80875
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2024-11-25
+PO Reference    : PO-38318
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-80875 submitted for $85,748.20 against PO-38318.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $86,669.48.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Warehouse log shows no inbound delivery from ProMed Devices on 2024-11-25.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 20
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

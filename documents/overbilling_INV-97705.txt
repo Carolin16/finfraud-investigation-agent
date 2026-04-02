@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-97705
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2024-10-15
+PO Reference    : PO-33681
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,307.57 against 
+contracted PO rate of $1,843.45 on PO-33681.
+Deviation of 25.18% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $464.12.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $464.12 rejected.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

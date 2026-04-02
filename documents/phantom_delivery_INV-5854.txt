@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-5854
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2025-05-12
+PO Reference    : PO-13877
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-5854 submitted for $180,154.57 against PO-13877.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $181,530.46.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Site inspection confirmed no goods from BioTech Equipment Ltd on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 19
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

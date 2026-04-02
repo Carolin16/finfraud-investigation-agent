@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-70379
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-04-07
+PO Reference    : PO-29615
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $130,011.50 against 
+contracted PO rate of $92,725.25 on PO-29615.
+Deviation of 40.21% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $37,286.25.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $37,286.25 rejected.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-39224
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2024-07-02
+PO Reference    : PO-73107
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-39224 submitted for $12,927.84 against PO-73107.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $12,900.94.
+
+INVESTIGATION
+-------------
+Vendor stated delivery was made but could not provide proof of receipt.
+Nina Petrov confirmed zero goods received on stated delivery date.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 29
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

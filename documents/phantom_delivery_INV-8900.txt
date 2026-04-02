@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-8900
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2024-05-03
+PO Reference    : PO-91291
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-8900 submitted for $2,010.69 against PO-91291.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $1,959.12.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Warehouse log shows no inbound delivery from OfficeMax on 2024-05-03.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 17
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

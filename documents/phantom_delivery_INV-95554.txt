@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-95554
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-06-07
+PO Reference    : PO-67459
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-95554 submitted for $56,146.79 against PO-67459.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $56,903.54.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Carrier records checked — no shipment registered against PO-67459.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 25
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

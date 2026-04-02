@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-62224
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2025-08-30
+PO Reference    : PO-62816
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $37,610.61 against 
+contracted PO rate of $28,480.37 on PO-62816.
+Deviation of 32.06% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $9,130.24.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $9,130.24.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

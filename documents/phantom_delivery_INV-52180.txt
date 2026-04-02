@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-52180
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-05-12
+PO Reference    : PO-20472
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-52180 submitted for $11,566.12 against PO-20472.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $11,818.74.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Carrier records checked — no shipment registered against PO-20472.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 26
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

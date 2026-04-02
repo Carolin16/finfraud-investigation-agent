@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-13672
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-11-21
+PO Reference    : PO-25178
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-13672 submitted for $52,958.11 against PO-25178.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $52,692.19.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Warehouse log shows no inbound delivery from GlobalParts Co on 2024-11-21.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 21
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

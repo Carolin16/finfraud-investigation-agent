@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-98329
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-11-12
+PO Reference    : PO-62035
+Flagged By      : AP Automated Detection System
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-98329 for $6,514.74 submitted against PO-62035.
+A previous invoice from the same vendor on the same PO was 
+received only 3 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor stated their billing system resubmitted automatically.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-98329 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 5
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : James Patel, AP Manager

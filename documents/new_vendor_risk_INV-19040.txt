@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-19040
+Vendor          : NewVendor Corp 14 (V-NEW-014)
+Category        : industrial
+Invoice Date    : 2025-02-11
+PO Reference    : PO-70318
+Assessed By     : Oliver Grant, Vendor Risk Lead
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 14 for $107,203.26.
+Vendor registered as new supplier 11 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $92,111.55 — unreconciled gap of $15,091.71.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Company registration verified but directors flagged in adverse media search.
+Vendor onboarding checklist initiated by Oliver Grant.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Invoice approved after procurement confirmed vendor legitimacy.
+Days to resolve : 9
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Oliver Grant, Vendor Risk Lead

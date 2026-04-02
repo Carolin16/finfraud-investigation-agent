@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-94925
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2025-03-30
+PO Reference    : PO-55500
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-94925 submitted for $183,582.65 against PO-55500.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $185,945.87.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Carrier records checked — no shipment registered against PO-55500.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 22
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

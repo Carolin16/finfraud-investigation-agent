@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-75903
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2025-10-03
+PO Reference    : PO-65414
+Flagged By      : AP Automated Detection System
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-75903 for $30,381.39 submitted against PO-65414.
+A previous invoice from the same vendor on the same PO was 
+received only 5 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor confirmed duplicate submission was a system error on their side.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-75903 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Lisa Okonkwo, AP Manager

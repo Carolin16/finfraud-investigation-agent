@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-81641
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2024-11-12
+PO Reference    : PO-38135
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,978.32 against 
+contracted PO rate of $2,186.51 on PO-38135.
+Deviation of 36.21% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $791.81.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $791.81 rejected.
+Days to resolve : 14
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-40033
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2025-04-25
+PO Reference    : PO-88034
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $13,924.95 against 
+contracted PO rate of $8,757.01 on PO-88034.
+Deviation of 59.01% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $5,167.94.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $5,167.94.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

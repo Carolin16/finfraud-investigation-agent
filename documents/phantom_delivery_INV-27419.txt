@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-27419
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2026-03-22
+PO Reference    : PO-81234
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-27419 submitted for $8,427.03 against PO-81234.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $8,438.66.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Site inspection confirmed no goods from SafetyFirst Ltd on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 18
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

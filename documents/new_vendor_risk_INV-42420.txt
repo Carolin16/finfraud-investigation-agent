@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-42420
+Vendor          : NewVendor Corp 9 (V-NEW-009)
+Category        : IT
+Invoice Date    : 2026-03-04
+PO Reference    : PO-21489
+Assessed By     : Mike Donovan, Vendor Risk Lead
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 9 for $236,703.97.
+Vendor registered as new supplier 9 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $216,334.37 — unreconciled gap of $20,369.60.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Company registration verified but directors flagged in adverse media search.
+Vendor onboarding checklist initiated by Mike Donovan.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Payment approved after 30 days following full KYC completion.
+Days to resolve : 18
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Mike Donovan, Vendor Risk Lead

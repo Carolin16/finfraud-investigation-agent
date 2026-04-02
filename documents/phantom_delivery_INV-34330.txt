@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-34330
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2024-08-05
+PO Reference    : PO-81208
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-34330 submitted for $179,336.35 against PO-81208.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $175,994.81.
+
+INVESTIGATION
+-------------
+Vendor provided tracking number — carrier confirmed no delivery.
+Warehouse log shows no inbound delivery from BioTech Equipment Ltd on 2024-08-05.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 23
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

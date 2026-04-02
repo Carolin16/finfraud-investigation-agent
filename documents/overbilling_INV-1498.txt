@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-1498
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2024-10-14
+PO Reference    : PO-96200
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,660.62 against 
+contracted PO rate of $1,864.02 on PO-96200.
+Deviation of 42.74% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $796.60.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $796.60.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

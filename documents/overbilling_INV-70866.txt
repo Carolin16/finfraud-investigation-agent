@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-70866
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2024-09-20
+PO Reference    : PO-58362
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $13,380.01 against 
+contracted PO rate of $9,011.54 on PO-58362.
+Deviation of 48.48% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $4,368.47.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $4,368.47.
+Days to resolve : 15
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

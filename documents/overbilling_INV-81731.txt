@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-81731
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-01-07
+PO Reference    : PO-80002
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $139,814.80 against 
+contracted PO rate of $96,712.54 on PO-80002.
+Deviation of 44.57% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $43,102.26.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $43,102.26 rejected.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

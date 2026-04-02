@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-22782
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2025-05-28
+PO Reference    : PO-96007
+Flagged By      : AP Automated Detection System
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-22782 for $161,278.15 submitted against PO-96007.
+A previous invoice from the same vendor on the same PO was 
+received only 6 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor could not explain the resubmission — under investigation internally.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-22782 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : James Patel, AP Manager

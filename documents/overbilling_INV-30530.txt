@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-30530
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2024-08-19
+PO Reference    : PO-93704
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $16,471.16 against 
+contracted PO rate of $10,873.24 on PO-93704.
+Deviation of 51.48% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $5,597.92.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $5,597.92 rejected.
+Days to resolve : 14
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

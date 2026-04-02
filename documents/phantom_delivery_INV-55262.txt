@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-55262
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2026-03-23
+PO Reference    : PO-55309
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-55262 submitted for $46,373.89 against PO-55309.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $46,340.43.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Warehouse log shows no inbound delivery from TechServe Inc on 2026-03-23.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 17
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

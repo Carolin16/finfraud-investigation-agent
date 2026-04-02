@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-25253
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2024-08-29
+PO Reference    : PO-29055
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-25253 submitted for $38,089.08 against PO-29055.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $37,756.01.
+
+INVESTIGATION
+-------------
+Vendor stated delivery was made but could not provide proof of receipt.
+Tom Briggs confirmed zero goods received on stated delivery date.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 16
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

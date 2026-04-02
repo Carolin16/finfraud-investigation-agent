@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-22891
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2024-11-04
+PO Reference    : PO-57946
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $229,381.85 against 
+contracted PO rate of $185,952.23 on PO-57946.
+Deviation of 23.36% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $43,429.62.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $43,429.62.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

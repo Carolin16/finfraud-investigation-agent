@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-38910
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2025-07-10
+PO Reference    : PO-26579
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $42,899.54 against 
+contracted PO rate of $31,710.41 on PO-26579.
+Deviation of 35.29% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $11,189.13.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

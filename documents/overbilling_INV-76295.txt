@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-76295
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2024-03-28
+PO Reference    : PO-84075
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $64,921.61 against 
+contracted PO rate of $47,486.00 on PO-84075.
+Deviation of 36.72% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $17,435.61.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $17,435.61 rejected.
+Days to resolve : 12
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

@@ -1,0 +1,60 @@
+VENDOR FRAMEWORK CONTRACT — SUMMARY DOCUMENT
+============================================================
+Vendor Name    : Apex Supplies Ltd
+Vendor ID      : V-001
+Category       : INDUSTRIAL
+Approved Since : March 2019
+Approved By    : David Huang, Head of Procurement
+============================================================
+
+1. CONTRACTED RATE
+The contracted rate for Apex Supplies Ltd is set within the
+following band:
+
+  Minimum rate  : $31,500.00 per transaction/shipment
+  Typical rate  : $35,000.00 per transaction/shipment
+  Maximum rate  : $38,500.00 per transaction/shipment
+
+These rates reflect the agreed pricing for standard industrial
+goods and services as specified in the master vendor agreement.
+
+2. VARIANCE CLAUSE
+Invoices may deviate from the contracted typical rate by a maximum of
+5% without requiring additional approvals, subject to the
+three-way match passing.
+
+Any invoice exceeding the contracted maximum rate of
+$38,500.00 requires written justification from the vendor
+and approval from David Huang, Head of Procurement before payment is released.
+
+Rate changes above the maximum contracted rate must be agreed in writing
+at least 30 days before the new rate invoice is submitted.
+
+3. PAYMENT TERMS
+Payment terms: Net 30 from confirmed Goods Receipt date.
+Late payment may attract a penalty of 2% per month on overdue amounts.
+
+4. HIGH-VALUE INVOICE THRESHOLD
+Invoices above $40,250 require escalated approval:
+  — David Huang, Head of Procurement
+  — Head of Finance sign-off
+
+5. THREE-WAY MATCH REQUIREMENT
+All invoices from Apex Supplies Ltd must pass a three-way match
+between invoice amount, PO amount, and Goods Receipt amount before
+payment is released. A zero Goods Receipt will result in automatic
+payment block.
+
+6. ANNUAL RATE REVIEW
+Contract rates are reviewed annually each April. Rate change
+proposals must be submitted by the vendor at least 60 days before the
+review date.
+
+7. VENDOR NOTES
+Approved for industrial components and hardware. Annual rate review in Q1.
+
+8. CONTRACT STATUS
+Active — in good standing as of the date of this summary.
+
+Signed by    : David Huang, Head of Procurement
+Reference    : VENDOR-CONTRACT-V-001-2024

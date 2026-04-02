@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-60636
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-09-27
+PO Reference    : PO-42419
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $111,218.71 against 
+contracted PO rate of $89,448.86 on PO-42419.
+Deviation of 24.34% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $21,769.85.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $21,769.85.
+Days to resolve : 8
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

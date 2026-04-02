@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-49963
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-01-03
+PO Reference    : PO-72440
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $112,889.78 against 
+contracted PO rate of $91,300.31 on PO-72440.
+Deviation of 23.65% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $21,589.47.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $21,589.47.
+Days to resolve : 15
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

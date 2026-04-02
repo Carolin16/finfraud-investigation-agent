@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-37005
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2025-12-08
+PO Reference    : PO-72765
+Flagged By      : AP Automated Detection System
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-37005 for $6,237.50 submitted against PO-72765.
+A previous invoice from the same vendor on the same PO was 
+received only 7 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor acknowledged the duplicate and withdrew the second invoice.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-37005 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : James Patel, AP Manager

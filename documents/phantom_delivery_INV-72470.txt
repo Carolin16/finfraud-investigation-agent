@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-72470
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-11-24
+PO Reference    : PO-97323
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-72470 submitted for $5,803.81 against PO-97323.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $5,704.22.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Carrier records checked — no shipment registered against PO-97323.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 30
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

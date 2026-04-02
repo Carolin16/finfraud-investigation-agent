@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-43510
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-04-19
+PO Reference    : PO-47213
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-43510 submitted for $48,469.22 against PO-47213.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $47,448.77.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Site inspection confirmed no goods from GlobalParts Co on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 26
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-15450
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-08-19
+PO Reference    : PO-60249
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $83,305.81 against 
+contracted PO rate of $56,228.92 on PO-60249.
+Deviation of 48.15% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $27,076.89.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Emma Thornton confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

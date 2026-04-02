@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-6217
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2025-12-23
+PO Reference    : PO-19285
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $38,365.34 against 
+contracted PO rate of $25,442.77 on PO-19285.
+Deviation of 50.79% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $12,922.57.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $12,922.57 rejected.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

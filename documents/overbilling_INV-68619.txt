@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-68619
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-12-21
+PO Reference    : PO-97557
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $148,324.89 against 
+contracted PO rate of $101,752.02 on PO-97557.
+Deviation of 45.77% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $46,572.87.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $46,572.87.
+Days to resolve : 14
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

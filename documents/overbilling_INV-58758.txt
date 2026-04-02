@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-58758
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-03-20
+PO Reference    : PO-13228
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,471.82 against 
+contracted PO rate of $1,928.63 on PO-13228.
+Deviation of 28.16% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $543.19.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $543.19 rejected.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

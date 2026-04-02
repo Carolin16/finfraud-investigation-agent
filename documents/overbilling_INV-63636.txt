@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-63636
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2025-11-15
+PO Reference    : PO-89158
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $7,804.05 against 
+contracted PO rate of $6,116.03 on PO-89158.
+Deviation of 27.60% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $1,688.02.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $1,688.02.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

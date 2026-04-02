@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-12364
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-03-22
+PO Reference    : PO-96279
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,530.38 against 
+contracted PO rate of $1,838.74 on PO-96279.
+Deviation of 37.61% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $691.64.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-69119
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-08-16
+PO Reference    : PO-61963
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $81,276.29 against 
+contracted PO rate of $54,197.93 on PO-61963.
+Deviation of 49.96% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $27,078.36.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $27,078.36.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

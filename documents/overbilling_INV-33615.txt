@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-33615
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-04-20
+PO Reference    : PO-50063
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $14,656.80 against 
+contracted PO rate of $11,631.50 on PO-50063.
+Deviation of 26.01% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $3,025.30.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $3,025.30 rejected.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

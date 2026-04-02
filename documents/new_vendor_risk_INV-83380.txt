@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-83380
+Vendor          : NewVendor Corp 17 (V-NEW-017)
+Category        : industrial
+Invoice Date    : 2024-07-21
+PO Reference    : PO-84275
+Assessed By     : Priya Sharma, Vendor Risk Lead
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 17 for $232,131.80.
+Vendor registered as new supplier 3 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $184,398.83 — unreconciled gap of $47,732.97.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Company registration verified but directors flagged in adverse media search.
+Vendor onboarding checklist initiated by Priya Sharma.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Partial payment released. Remainder held until goods fully received.
+Days to resolve : 16
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Priya Sharma, Vendor Risk Lead

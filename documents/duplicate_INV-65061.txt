@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-65061
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-09-29
+PO Reference    : PO-26577
+Flagged By      : AP Automated Detection System
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-65061 for $5,904.38 submitted against PO-26577.
+A previous invoice from the same vendor on the same PO was 
+received only 6 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor could not explain the resubmission — under investigation internally.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-65061 pending confirmation.
+
+RESOLUTION
+----------
+AP team confirmed single payment processed. Duplicate cancelled.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Sarah Chen, AP Manager

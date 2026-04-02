@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-67883
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2024-09-05
+PO Reference    : PO-74119
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $17,081.20 against 
+contracted PO rate of $11,503.01 on PO-74119.
+Deviation of 48.49% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $5,578.19.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 17
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

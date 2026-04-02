@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-26243
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2026-02-09
+PO Reference    : PO-62642
+Flagged By      : AP Automated Detection System
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-26243 for $57,889.03 submitted against PO-62642.
+A previous invoice from the same vendor on the same PO was 
+received only 1 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor could not explain the resubmission — under investigation internally.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-26243 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 1
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : James Patel, AP Manager

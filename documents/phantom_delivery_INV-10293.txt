@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-10293
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2024-08-13
+PO Reference    : PO-89397
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-10293 submitted for $95,491.66 against PO-89397.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $95,014.08.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Site inspection confirmed no goods from ProMed Devices on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 21
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

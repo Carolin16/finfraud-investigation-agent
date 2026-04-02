@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-64072
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2025-05-05
+PO Reference    : PO-33764
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $12,545.23 against 
+contracted PO rate of $7,945.46 on PO-33764.
+Deviation of 57.89% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $4,599.77.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

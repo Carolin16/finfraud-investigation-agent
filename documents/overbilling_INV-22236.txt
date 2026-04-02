@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-22236
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-08-09
+PO Reference    : PO-92843
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $39,610.80 against 
+contracted PO rate of $25,976.46 on PO-92843.
+Deviation of 52.49% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $13,634.34.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $13,634.34.
+Days to resolve : 16
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

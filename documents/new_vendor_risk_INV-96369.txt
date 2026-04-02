@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-96369
+Vendor          : NewVendor Corp 5 (V-NEW-005)
+Category        : medical
+Invoice Date    : 2024-11-02
+PO Reference    : PO-22156
+Assessed By     : Aisha Yusuf, Vendor Risk Lead
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 5 for $165,470.42.
+Vendor registered as new supplier 8 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $153,520.42 — unreconciled gap of $11,950.00.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+No verifiable trading history found on Companies House or equivalent.
+Vendor onboarding checklist initiated by Aisha Yusuf.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Invoice approved after procurement confirmed vendor legitimacy.
+Days to resolve : 8
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Aisha Yusuf, Vendor Risk Lead

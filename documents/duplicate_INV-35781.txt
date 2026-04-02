@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-35781
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-12-05
+PO Reference    : PO-99003
+Flagged By      : AP Automated Detection System
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-35781 for $5,552.97 submitted against PO-99003.
+A previous invoice from the same vendor on the same PO was 
+received only 6 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor could not explain the resubmission — under investigation internally.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-35781 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 1
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Lisa Okonkwo, AP Manager

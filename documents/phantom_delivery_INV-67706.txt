@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-67706
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-02-02
+PO Reference    : PO-46059
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-67706 submitted for $95,019.66 against PO-46059.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $97,900.14.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Site inspection confirmed no goods from ProMed Devices on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 22
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : James Patel, AP Manager

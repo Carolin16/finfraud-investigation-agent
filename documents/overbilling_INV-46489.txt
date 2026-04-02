@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-46489
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2026-01-26
+PO Reference    : PO-69515
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $12,216.08 against 
+contracted PO rate of $9,181.73 on PO-69515.
+Deviation of 33.05% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $3,034.35.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

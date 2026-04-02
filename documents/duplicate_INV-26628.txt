@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-26628
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2025-04-07
+PO Reference    : PO-93258
+Flagged By      : AP Automated Detection System
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-26628 for $13,035.41 submitted against PO-93258.
+A previous invoice from the same vendor on the same PO was 
+received only 3 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor could not explain the resubmission — under investigation internally.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-26628 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 5
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Mark Reynolds, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-1755
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-12-03
+PO Reference    : PO-73827
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $142,256.47 against 
+contracted PO rate of $94,470.68 on PO-73827.
+Deviation of 50.58% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $47,785.79.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $47,785.79.
+Days to resolve : 12
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-66043
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-01-14
+PO Reference    : PO-39095
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,784.26 against 
+contracted PO rate of $2,011.00 on PO-39095.
+Deviation of 38.45% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $773.26.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $773.26.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

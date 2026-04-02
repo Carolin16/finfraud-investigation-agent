@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-37051
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-09-17
+PO Reference    : PO-22837
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $3,193.10 against 
+contracted PO rate of $2,043.57 on PO-22837.
+Deviation of 56.25% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $1,149.53.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $1,149.53 rejected.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-87112
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2025-04-07
+PO Reference    : PO-49202
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $235,846.89 against 
+contracted PO rate of $179,556.01 on PO-49202.
+Deviation of 31.35% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $56,290.88.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $56,290.88.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

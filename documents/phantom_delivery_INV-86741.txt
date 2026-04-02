@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-86741
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2024-04-21
+PO Reference    : PO-12668
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-86741 submitted for $99,838.18 against PO-12668.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $97,131.46.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Fatima Al-Rashid confirmed zero goods received on stated delivery date.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 18
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

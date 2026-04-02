@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-13534
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-01-05
+PO Reference    : PO-46187
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $123,342.70 against 
+contracted PO rate of $93,902.38 on PO-46187.
+Deviation of 31.35% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $29,440.32.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $29,440.32 rejected.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

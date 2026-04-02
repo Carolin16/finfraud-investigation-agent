@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-18926
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2024-04-16
+PO Reference    : PO-16178
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $72,524.70 against 
+contracted PO rate of $47,751.16 on PO-16178.
+Deviation of 51.88% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $24,773.54.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $24,773.54 rejected.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

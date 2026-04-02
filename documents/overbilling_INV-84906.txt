@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-84906
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-03-17
+PO Reference    : PO-70298
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,735.71 against 
+contracted PO rate of $2,114.86 on PO-70298.
+Deviation of 29.36% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $620.85.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 14
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

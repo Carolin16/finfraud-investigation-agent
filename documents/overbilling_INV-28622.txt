@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-28622
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-08-29
+PO Reference    : PO-53677
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $60,552.08 against 
+contracted PO rate of $44,628.45 on PO-53677.
+Deviation of 35.68% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $15,923.63.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $15,923.63 rejected.
+Days to resolve : 13
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

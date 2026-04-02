@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-41952
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-12-05
+PO Reference    : PO-60435
+Flagged By      : AP Automated Detection System
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-41952 for $2,064.57 submitted against PO-60435.
+A previous invoice from the same vendor on the same PO was 
+received only 6 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor confirmed duplicate submission was a system error on their side.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-41952 pending confirmation.
+
+RESOLUTION
+----------
+AP team confirmed single payment processed. Duplicate cancelled.
+Days to resolve : 1
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Mark Reynolds, AP Manager

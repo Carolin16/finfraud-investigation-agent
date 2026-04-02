@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-15872
+Vendor          : NewVendor Corp 12 (V-NEW-012)
+Category        : IT
+Invoice Date    : 2024-11-14
+PO Reference    : PO-21408
+Assessed By     : Mike Donovan, Vendor Risk Lead
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 12 for $249,161.19.
+Vendor registered as new supplier 18 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $214,986.24 — unreconciled gap of $34,174.95.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Bank account details not matching registered company address.
+Vendor onboarding checklist initiated by Mike Donovan.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Invoice approved after procurement confirmed vendor legitimacy.
+Days to resolve : 14
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Mike Donovan, Vendor Risk Lead

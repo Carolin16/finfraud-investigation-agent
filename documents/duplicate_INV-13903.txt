@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-13903
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2025-03-15
+PO Reference    : PO-82209
+Flagged By      : AP Automated Detection System
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-13903 for $191,411.66 submitted against PO-82209.
+A previous invoice from the same vendor on the same PO was 
+received only 5 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor acknowledged the duplicate and withdrew the second invoice.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-13903 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 1
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Sarah Chen, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-7755
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-07-26
+PO Reference    : PO-10212
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $45,168.86 against 
+contracted PO rate of $30,219.90 on PO-10212.
+Deviation of 49.47% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $14,948.96.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $14,948.96 rejected.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

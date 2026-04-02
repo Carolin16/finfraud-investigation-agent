@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-97965
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-10-27
+PO Reference    : PO-93554
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-97965 submitted for $53,847.07 against PO-93554.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $52,662.40.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Warehouse log shows no inbound delivery from GlobalParts Co on 2025-10-27.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 17
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

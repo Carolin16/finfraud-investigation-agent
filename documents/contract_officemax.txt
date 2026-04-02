@@ -1,0 +1,60 @@
+VENDOR FRAMEWORK CONTRACT — SUMMARY DOCUMENT
+============================================================
+Vendor Name    : OfficeMax
+Vendor ID      : V-004
+Category       : STATIONERY
+Approved Since : April 2018
+Approved By    : Sarah Chen, AP Manager
+============================================================
+
+1. CONTRACTED RATE
+The contracted rate for OfficeMax is set within the
+following band:
+
+  Minimum rate  : $1,800.00 per transaction/shipment
+  Typical rate  : $2,000.00 per transaction/shipment
+  Maximum rate  : $2,200.00 per transaction/shipment
+
+These rates reflect the agreed pricing for standard stationery
+goods and services as specified in the master vendor agreement.
+
+2. VARIANCE CLAUSE
+Invoices may deviate from the contracted typical rate by a maximum of
+5% without requiring additional approvals, subject to the
+three-way match passing.
+
+Any invoice exceeding the contracted maximum rate of
+$2,200.00 requires written justification from the vendor
+and approval from Sarah Chen, AP Manager before payment is released.
+
+Rate changes above the maximum contracted rate must be agreed in writing
+at least 30 days before the new rate invoice is submitted.
+
+3. PAYMENT TERMS
+Payment terms: Net 14 from confirmed Goods Receipt date.
+Late payment may attract a penalty of 2% per month on overdue amounts.
+
+4. HIGH-VALUE INVOICE THRESHOLD
+Invoices above $2,300 require escalated approval:
+  — Sarah Chen, AP Manager
+  — Head of Finance sign-off
+
+5. THREE-WAY MATCH REQUIREMENT
+All invoices from OfficeMax must pass a three-way match
+between invoice amount, PO amount, and Goods Receipt amount before
+payment is released. A zero Goods Receipt will result in automatic
+payment block.
+
+6. ANNUAL RATE REVIEW
+Contract rates are reviewed annually each July. Rate change
+proposals must be submitted by the vendor at least 60 days before the
+review date.
+
+7. VENDOR NOTES
+Office stationery and supplies. Low-value vendor — standard AP controls apply.
+
+8. CONTRACT STATUS
+Active — in good standing as of the date of this summary.
+
+Signed by    : Sarah Chen, AP Manager
+Reference    : VENDOR-CONTRACT-V-004-2024

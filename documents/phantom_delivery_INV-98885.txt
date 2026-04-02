@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-98885
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-12-11
+PO Reference    : PO-65738
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-98885 submitted for $2,012.29 against PO-65738.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $1,957.84.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Carrier records checked — no shipment registered against PO-65738.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 15
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

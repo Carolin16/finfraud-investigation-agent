@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-42763
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2026-02-18
+PO Reference    : PO-22556
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $53,544.70 against 
+contracted PO rate of $34,066.68 on PO-22556.
+Deviation of 57.18% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $19,478.02.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $19,478.02.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

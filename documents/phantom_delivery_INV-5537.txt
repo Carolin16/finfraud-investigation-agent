@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-5537
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2024-06-25
+PO Reference    : PO-21881
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-5537 submitted for $1,973.39 against PO-21881.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $1,970.15.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Carrier records checked — no shipment registered against PO-21881.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 16
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

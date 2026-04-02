@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-27402
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2025-10-22
+PO Reference    : PO-82801
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $54,908.47 against 
+contracted PO rate of $36,581.40 on PO-82801.
+Deviation of 50.10% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $18,327.07.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $18,327.07 rejected.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

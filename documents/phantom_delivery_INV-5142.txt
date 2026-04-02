@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-5142
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2025-03-11
+PO Reference    : PO-66180
+Raised By       : Ben Kowalski, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-5142 submitted for $29,808.05 against PO-66180.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $29,172.42.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Site inspection confirmed no goods from FastTech Solutions on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 14
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

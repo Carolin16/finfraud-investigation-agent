@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-25619
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2025-06-09
+PO Reference    : PO-36435
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $54,072.03 against 
+contracted PO rate of $34,880.87 on PO-36435.
+Deviation of 55.02% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $19,191.16.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $19,191.16.
+Days to resolve : 13
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

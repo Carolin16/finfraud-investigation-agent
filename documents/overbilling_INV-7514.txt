@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-7514
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-11-03
+PO Reference    : PO-51530
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,684.21 against 
+contracted PO rate of $2,128.14 on PO-51530.
+Deviation of 26.13% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $556.07.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $556.07 rejected.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

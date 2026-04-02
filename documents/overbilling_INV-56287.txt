@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-56287
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-03-26
+PO Reference    : PO-30578
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $79,053.60 against 
+contracted PO rate of $53,448.19 on PO-30578.
+Deviation of 47.91% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $25,605.41.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 12
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

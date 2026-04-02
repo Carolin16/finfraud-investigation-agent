@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-18576
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-12-01
+PO Reference    : PO-53280
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $70,444.00 against 
+contracted PO rate of $46,417.95 on PO-53280.
+Deviation of 51.76% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $24,026.05.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $24,026.05.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

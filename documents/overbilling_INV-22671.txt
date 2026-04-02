@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-22671
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2025-07-25
+PO Reference    : PO-54494
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $238,581.97 against 
+contracted PO rate of $173,935.86 on PO-54494.
+Deviation of 37.17% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $64,646.11.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 16
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

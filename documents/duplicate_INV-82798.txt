@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-82798
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2026-01-21
+PO Reference    : PO-13745
+Flagged By      : AP Automated Detection System
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-82798 for $170,802.87 submitted against PO-13745.
+A previous invoice from the same vendor on the same PO was 
+received only 7 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor could not explain the resubmission — under investigation internally.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-82798 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 2
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Sarah Chen, AP Manager

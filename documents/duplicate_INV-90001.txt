@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-90001
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-06-15
+PO Reference    : PO-45523
+Flagged By      : AP Automated Detection System
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-90001 for $29,928.09 submitted against PO-45523.
+A previous invoice from the same vendor on the same PO was 
+received only 2 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor confirmed duplicate submission was a system error on their side.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-90001 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Mark Reynolds, AP Manager

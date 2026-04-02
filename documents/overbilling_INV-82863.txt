@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-82863
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2025-12-06
+PO Reference    : PO-77132
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $45,006.71 against 
+contracted PO rate of $33,590.25 on PO-77132.
+Deviation of 33.99% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $11,416.46.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $11,416.46 rejected.
+Days to resolve : 7
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

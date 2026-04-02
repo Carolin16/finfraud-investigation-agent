@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-49971
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2026-03-02
+PO Reference    : PO-13054
+Flagged By      : AP Automated Detection System
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-49971 for $51,720.84 submitted against PO-13054.
+A previous invoice from the same vendor on the same PO was 
+received only 2 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor confirmed duplicate submission was a system error on their side.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-49971 pending confirmation.
+
+RESOLUTION
+----------
+Original invoice processed. Duplicate rejected and returned to vendor.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Mark Reynolds, AP Manager

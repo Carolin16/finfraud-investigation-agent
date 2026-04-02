@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-58306
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-09-30
+PO Reference    : PO-55156
+Flagged By      : AP Automated Detection System
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-58306 for $26,243.67 submitted against PO-55156.
+A previous invoice from the same vendor on the same PO was 
+received only 1 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor acknowledged the duplicate and withdrew the second invoice.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-58306 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 5
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Lisa Okonkwo, AP Manager

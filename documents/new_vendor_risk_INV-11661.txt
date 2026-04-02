@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-11661
+Vendor          : NewVendor Corp 11 (V-NEW-011)
+Category        : IT
+Invoice Date    : 2025-06-11
+PO Reference    : PO-60388
+Assessed By     : Priya Sharma, Vendor Risk Lead
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 11 for $78,653.15.
+Vendor registered as new supplier 19 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $66,261.18 — unreconciled gap of $12,391.97.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Company registration verified but directors flagged in adverse media search.
+Vendor onboarding checklist initiated by Priya Sharma.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Partial payment released. Remainder held until goods fully received.
+Days to resolve : 23
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Priya Sharma, Vendor Risk Lead

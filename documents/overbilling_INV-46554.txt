@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-46554
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2024-06-15
+PO Reference    : PO-97779
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $241,405.19 against 
+contracted PO rate of $177,311.75 on PO-97779.
+Deviation of 36.15% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $64,093.44.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Emma Thornton confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

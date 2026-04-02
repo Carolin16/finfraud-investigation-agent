@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-1439
+Vendor          : NewVendor Corp 14 (V-NEW-014)
+Category        : industrial
+Invoice Date    : 2025-02-27
+PO Reference    : PO-88152
+Assessed By     : Priya Sharma, Vendor Risk Lead
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 14 for $68,750.20.
+Vendor registered as new supplier 11 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $62,649.02 — unreconciled gap of $6,101.18.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+No verifiable trading history found on Companies House or equivalent.
+Vendor onboarding checklist initiated by Priya Sharma.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Partial payment released. Remainder held until goods fully received.
+Days to resolve : 7
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Priya Sharma, Vendor Risk Lead

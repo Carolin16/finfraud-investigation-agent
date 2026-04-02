@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-59397
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-02-28
+PO Reference    : PO-65257
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $130,038.90 against 
+contracted PO rate of $89,844.79 on PO-65257.
+Deviation of 44.74% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $40,194.11.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $40,194.11 rejected.
+Days to resolve : 16
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

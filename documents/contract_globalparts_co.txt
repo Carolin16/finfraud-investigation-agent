@@ -1,0 +1,60 @@
+VENDOR FRAMEWORK CONTRACT — SUMMARY DOCUMENT
+============================================================
+Vendor Name    : GlobalParts Co
+Vendor ID      : V-006
+Category       : INDUSTRIAL
+Approved Since : February 2017
+Approved By    : David Huang, Head of Procurement
+============================================================
+
+1. CONTRACTED RATE
+The contracted rate for GlobalParts Co is set within the
+following band:
+
+  Minimum rate  : $46,800.00 per transaction/shipment
+  Typical rate  : $52,000.00 per transaction/shipment
+  Maximum rate  : $57,200.00 per transaction/shipment
+
+These rates reflect the agreed pricing for standard industrial
+goods and services as specified in the master vendor agreement.
+
+2. VARIANCE CLAUSE
+Invoices may deviate from the contracted typical rate by a maximum of
+5% without requiring additional approvals, subject to the
+three-way match passing.
+
+Any invoice exceeding the contracted maximum rate of
+$57,200.00 requires written justification from the vendor
+and approval from David Huang, Head of Procurement before payment is released.
+
+Rate changes above the maximum contracted rate must be agreed in writing
+at least 30 days before the new rate invoice is submitted.
+
+3. PAYMENT TERMS
+Payment terms: Net 30 from confirmed Goods Receipt date.
+Late payment may attract a penalty of 2% per month on overdue amounts.
+
+4. HIGH-VALUE INVOICE THRESHOLD
+Invoices above $59,800 require escalated approval:
+  — David Huang, Head of Procurement
+  — Head of Finance sign-off
+
+5. THREE-WAY MATCH REQUIREMENT
+All invoices from GlobalParts Co must pass a three-way match
+between invoice amount, PO amount, and Goods Receipt amount before
+payment is released. A zero Goods Receipt will result in automatic
+payment block.
+
+6. ANNUAL RATE REVIEW
+Contract rates are reviewed annually each July. Rate change
+proposals must be submitted by the vendor at least 60 days before the
+review date.
+
+7. VENDOR NOTES
+Long-standing industrial parts supplier. Prior overbilling disputes in 2023 resolved.
+
+8. CONTRACT STATUS
+Active — in good standing as of the date of this summary.
+
+Signed by    : David Huang, Head of Procurement
+Reference    : VENDOR-CONTRACT-V-006-2024

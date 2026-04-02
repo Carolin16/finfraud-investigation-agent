@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-53500
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-07-06
+PO Reference    : PO-30747
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-53500 submitted for $29,367.50 against PO-30747.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $28,849.92.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Carrier records checked — no shipment registered against PO-30747.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 15
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

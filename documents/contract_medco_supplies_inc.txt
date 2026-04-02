@@ -1,0 +1,60 @@
+VENDOR FRAMEWORK CONTRACT — SUMMARY DOCUMENT
+============================================================
+Vendor Name    : MedCo Supplies Inc
+Vendor ID      : V-003
+Category       : MEDICAL
+Approved Since : November 2019
+Approved By    : Emma Thornton, Head of Procurement
+============================================================
+
+1. CONTRACTED RATE
+The contracted rate for MedCo Supplies Inc is set within the
+following band:
+
+  Minimum rate  : $10,800.00 per transaction/shipment
+  Typical rate  : $12,000.00 per transaction/shipment
+  Maximum rate  : $13,200.00 per transaction/shipment
+
+These rates reflect the agreed pricing for standard medical
+goods and services as specified in the master vendor agreement.
+
+2. VARIANCE CLAUSE
+Invoices may deviate from the contracted typical rate by a maximum of
+5% without requiring additional approvals, subject to the
+three-way match passing.
+
+Any invoice exceeding the contracted maximum rate of
+$13,200.00 requires written justification from the vendor
+and approval from Emma Thornton, Head of Procurement before payment is released.
+
+Rate changes above the maximum contracted rate must be agreed in writing
+at least 30 days before the new rate invoice is submitted.
+
+3. PAYMENT TERMS
+Payment terms: Net 30 from confirmed Goods Receipt date.
+Late payment may attract a penalty of 2% per month on overdue amounts.
+
+4. HIGH-VALUE INVOICE THRESHOLD
+Invoices above $13,800 require escalated approval:
+  — Emma Thornton, Head of Procurement
+  — Head of Finance sign-off
+
+5. THREE-WAY MATCH REQUIREMENT
+All invoices from MedCo Supplies Inc must pass a three-way match
+between invoice amount, PO amount, and Goods Receipt amount before
+payment is released. A zero Goods Receipt will result in automatic
+payment block.
+
+6. ANNUAL RATE REVIEW
+Contract rates are reviewed annually each October. Rate change
+proposals must be submitted by the vendor at least 60 days before the
+review date.
+
+7. VENDOR NOTES
+Medical consumables. Three-way match mandatory on all invoices.
+
+8. CONTRACT STATUS
+Active — in good standing as of the date of this summary.
+
+Signed by    : Emma Thornton, Head of Procurement
+Reference    : VENDOR-CONTRACT-V-003-2024

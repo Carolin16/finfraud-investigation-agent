@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-97954
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2024-09-09
+PO Reference    : PO-26043
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $70,520.31 against 
+contracted PO rate of $53,064.87 on PO-26043.
+Deviation of 32.89% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $17,455.44.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $17,455.44 rejected.
+Days to resolve : 15
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

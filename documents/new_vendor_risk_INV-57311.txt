@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-57311
+Vendor          : NewVendor Corp 18 (V-NEW-018)
+Category        : industrial
+Invoice Date    : 2024-08-08
+PO Reference    : PO-19157
+Assessed By     : Aisha Yusuf, Vendor Risk Lead
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 18 for $177,117.54.
+Vendor registered as new supplier 4 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $143,345.46 — unreconciled gap of $33,772.08.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Bank account details not matching registered company address.
+Vendor onboarding checklist initiated by Aisha Yusuf.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Invoice approved after procurement confirmed vendor legitimacy.
+Days to resolve : 11
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Aisha Yusuf, Vendor Risk Lead

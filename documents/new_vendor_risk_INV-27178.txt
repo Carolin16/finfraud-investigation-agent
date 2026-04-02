@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-27178
+Vendor          : NewVendor Corp 4 (V-NEW-004)
+Category        : IT
+Invoice Date    : 2025-08-09
+PO Reference    : PO-54582
+Assessed By     : Mike Donovan, Vendor Risk Lead
+Reviewed By     : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 4 for $177,062.55.
+Vendor registered as new supplier 16 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $169,001.03 — unreconciled gap of $8,061.52.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Bank account details not matching registered company address.
+Vendor onboarding checklist initiated by Mike Donovan.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Partial payment released. Remainder held until goods fully received.
+Days to resolve : 18
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Mike Donovan, Vendor Risk Lead

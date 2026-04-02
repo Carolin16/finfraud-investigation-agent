@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-55981
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2024-11-30
+PO Reference    : PO-90150
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $66,732.17 against 
+contracted PO rate of $43,771.25 on PO-90150.
+Deviation of 52.46% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $22,960.92.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $22,960.92.
+Days to resolve : 9
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

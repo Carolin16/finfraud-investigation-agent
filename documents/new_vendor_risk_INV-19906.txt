@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-19906
+Vendor          : NewVendor Corp 7 (V-NEW-007)
+Category        : industrial
+Invoice Date    : 2026-02-15
+PO Reference    : PO-48822
+Assessed By     : Mike Donovan, Vendor Risk Lead
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 7 for $140,643.25.
+Vendor registered as new supplier 8 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $134,329.35 — unreconciled gap of $6,313.90.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Bank account details not matching registered company address.
+Vendor onboarding checklist initiated by Mike Donovan.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Invoice approved after procurement confirmed vendor legitimacy.
+Days to resolve : 10
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Mike Donovan, Vendor Risk Lead

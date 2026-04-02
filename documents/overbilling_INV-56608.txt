@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-56608
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2024-06-06
+PO Reference    : PO-28212
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $50,053.82 against 
+contracted PO rate of $37,403.48 on PO-28212.
+Deviation of 33.82% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $12,650.34.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $12,650.34 rejected.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

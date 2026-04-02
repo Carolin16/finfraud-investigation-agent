@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-38919
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-06-21
+PO Reference    : PO-85919
+Flagged By      : AP Automated Detection System
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-38919 for $43,168.42 submitted against PO-85919.
+A previous invoice from the same vendor on the same PO was 
+received only 4 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor acknowledged the duplicate and withdrew the second invoice.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-38919 pending confirmation.
+
+RESOLUTION
+----------
+AP team confirmed single payment processed. Duplicate cancelled.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Lisa Okonkwo, AP Manager

@@ -1,0 +1,30 @@
+DUPLICATE INVOICE ALERT
+============================================================
+Invoice ID      : INV-14893
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2025-01-30
+PO Reference    : PO-29368
+Flagged By      : AP Automated Detection System
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-14893 for $6,404.24 submitted against PO-29368.
+A previous invoice from the same vendor on the same PO was 
+received only 2 day(s) ago — below the 7-day resubmission threshold.
+Possible duplicate payment risk identified.
+
+INVESTIGATION
+-------------
+Vendor stated their billing system resubmitted automatically.
+AP team cross-referenced invoice numbers, amounts and PO references.
+Payment hold applied to INV-14893 pending confirmation.
+
+RESOLUTION
+----------
+First invoice approved for payment. Duplicate voided.
+Days to resolve : 3
+Final outcome   : No financial loss. Duplicate successfully intercepted.
+Case closed by  : Sarah Chen, AP Manager

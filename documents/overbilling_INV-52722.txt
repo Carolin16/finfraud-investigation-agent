@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-52722
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2025-10-20
+PO Reference    : PO-70777
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $6,967.17 against 
+contracted PO rate of $5,671.83 on PO-70777.
+Deviation of 22.84% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $1,295.34.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $1,295.34.
+Days to resolve : 7
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

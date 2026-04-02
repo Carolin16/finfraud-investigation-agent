@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-71700
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2024-08-09
+PO Reference    : PO-16999
+Raised By       : Nina Petrov, Warehouse Manager
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-71700 submitted for $87,278.66 against PO-16999.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $88,654.67.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Warehouse log shows no inbound delivery from ProMed Devices on 2024-08-09.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 15
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Sarah Chen, AP Manager

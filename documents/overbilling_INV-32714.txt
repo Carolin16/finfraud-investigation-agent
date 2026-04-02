@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-32714
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2026-02-20
+PO Reference    : PO-41056
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $68,950.52 against 
+contracted PO rate of $56,464.28 on PO-41056.
+Deviation of 22.11% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $12,486.24.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

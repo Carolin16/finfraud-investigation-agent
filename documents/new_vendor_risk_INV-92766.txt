@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-92766
+Vendor          : NewVendor Corp 11 (V-NEW-011)
+Category        : IT
+Invoice Date    : 2025-08-17
+PO Reference    : PO-15442
+Assessed By     : Aisha Yusuf, Vendor Risk Lead
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 11 for $184,563.52.
+Vendor registered as new supplier 4 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $169,956.78 — unreconciled gap of $14,606.74.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Company registration verified but directors flagged in adverse media search.
+Vendor onboarding checklist initiated by Aisha Yusuf.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Payment held. Vendor failed enhanced due diligence checks.
+Days to resolve : 19
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Aisha Yusuf, Vendor Risk Lead

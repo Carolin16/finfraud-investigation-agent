@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-73312
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2024-10-08
+PO Reference    : PO-62239
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,558.99 against 
+contracted PO rate of $1,900.85 on PO-62239.
+Deviation of 34.62% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $658.14.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

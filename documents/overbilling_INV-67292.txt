@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-67292
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-09-07
+PO Reference    : PO-48039
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $58,527.81 against 
+contracted PO rate of $42,772.65 on PO-48039.
+Deviation of 36.83% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $15,755.16.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $15,755.16.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

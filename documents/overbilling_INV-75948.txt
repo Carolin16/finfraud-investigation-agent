@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-75948
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2025-03-09
+PO Reference    : PO-85313
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $152,951.14 against 
+contracted PO rate of $101,371.64 on PO-85313.
+Deviation of 50.88% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $51,579.50.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 9
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

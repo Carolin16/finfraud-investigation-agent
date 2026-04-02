@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-87719
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-02-11
+PO Reference    : PO-48302
+Raised By       : Tom Briggs, Warehouse Manager
+Reviewed By     : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-87719 submitted for $47,163.75 against PO-48302.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $47,177.74.
+
+INVESTIGATION
+-------------
+Vendor became unresponsive after goods receipt was requested.
+Site inspection confirmed no goods from GlobalParts Co on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice voided. Vendor suspended from approved supplier list.
+Days to resolve : 14
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Mark Reynolds, AP Manager

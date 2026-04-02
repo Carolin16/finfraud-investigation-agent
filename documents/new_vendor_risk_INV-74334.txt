@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-74334
+Vendor          : NewVendor Corp 2 (V-NEW-002)
+Category        : industrial
+Invoice Date    : 2025-11-27
+PO Reference    : PO-51993
+Assessed By     : Oliver Grant, Vendor Risk Lead
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 2 for $215,194.47.
+Vendor registered as new supplier 12 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $188,239.00 — unreconciled gap of $26,955.47.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+No verifiable trading history found on Companies House or equivalent.
+Vendor onboarding checklist initiated by Oliver Grant.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Partial payment released. Remainder held until goods fully received.
+Days to resolve : 27
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Oliver Grant, Vendor Risk Lead

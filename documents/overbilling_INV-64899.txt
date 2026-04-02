@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-64899
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2025-08-07
+PO Reference    : PO-44937
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $42,155.41 against 
+contracted PO rate of $28,879.48 on PO-44937.
+Deviation of 45.97% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $13,275.93.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $13,275.93.
+Days to resolve : 8
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

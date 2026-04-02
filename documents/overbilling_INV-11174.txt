@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-11174
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-05-24
+PO Reference    : PO-36811
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,552.90 against 
+contracted PO rate of $1,942.75 on PO-36811.
+Deviation of 31.41% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $610.15.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 8
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

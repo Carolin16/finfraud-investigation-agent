@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-50495
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-05-02
+PO Reference    : PO-65869
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $74,531.85 against 
+contracted PO rate of $47,211.96 on PO-65869.
+Deviation of 57.87% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $27,319.89.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-74200
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-08-13
+PO Reference    : PO-93985
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $31,553.57 against 
+contracted PO rate of $25,856.26 on PO-93985.
+Deviation of 22.03% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $5,697.31.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $5,697.31 rejected.
+Days to resolve : 16
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

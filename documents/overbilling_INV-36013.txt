@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-36013
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2024-06-20
+PO Reference    : PO-19398
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,363.13 against 
+contracted PO rate of $1,836.74 on PO-19398.
+Deviation of 28.66% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $526.39.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $526.39 rejected.
+Days to resolve : 8
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

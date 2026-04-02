@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-47651
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-04-14
+PO Reference    : PO-67164
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $67,154.36 against 
+contracted PO rate of $54,970.37 on PO-67164.
+Deviation of 22.16% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $12,183.99.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $12,183.99 rejected.
+Days to resolve : 13
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

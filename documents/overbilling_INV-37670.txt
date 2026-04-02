@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-37670
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2024-04-18
+PO Reference    : PO-86338
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $260,663.25 against 
+contracted PO rate of $183,895.22 on PO-86338.
+Deviation of 41.75% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $76,768.03.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $76,768.03 rejected.
+Days to resolve : 8
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

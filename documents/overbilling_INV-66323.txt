@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-66323
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-06-27
+PO Reference    : PO-94213
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $8,109.09 against 
+contracted PO rate of $6,272.19 on PO-94213.
+Deviation of 29.29% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $1,836.90.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $1,836.90.
+Days to resolve : 15
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-92043
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2025-09-14
+PO Reference    : PO-94778
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $55,782.11 against 
+contracted PO rate of $36,714.50 on PO-94778.
+Deviation of 51.93% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $19,067.61.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $19,067.61.
+Days to resolve : 13
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-62025
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2024-08-08
+PO Reference    : PO-75796
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $17,558.46 against 
+contracted PO rate of $12,453.16 on PO-75796.
+Deviation of 41.00% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $5,105.30.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $5,105.30.
+Days to resolve : 14
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

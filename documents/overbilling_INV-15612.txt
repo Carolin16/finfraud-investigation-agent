@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-15612
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-10-27
+PO Reference    : PO-84567
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $41,318.39 against 
+contracted PO rate of $29,456.78 on PO-84567.
+Deviation of 40.27% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $11,861.61.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

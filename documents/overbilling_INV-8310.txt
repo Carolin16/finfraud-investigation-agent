@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-8310
+Vendor          : SafetyFirst Ltd (V-007)
+Category        : safety
+Invoice Date    : 2026-01-26
+PO Reference    : PO-69403
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $10,758.97 against 
+contracted PO rate of $8,664.31 on PO-69403.
+Deviation of 24.18% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $2,094.66.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $2,094.66 rejected.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

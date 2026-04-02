@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-93170
+Vendor          : OfficeMax (V-004)
+Category        : stationery
+Invoice Date    : 2025-12-14
+PO Reference    : PO-81852
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $2,602.87 against 
+contracted PO rate of $1,901.32 on PO-81852.
+Deviation of 36.90% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $701.55.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $701.55.
+Days to resolve : 8
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

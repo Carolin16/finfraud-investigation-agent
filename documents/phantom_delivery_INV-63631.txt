@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-63631
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-10-21
+PO Reference    : PO-11146
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-63631 submitted for $31,315.08 against PO-11146.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $30,478.25.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Site inspection confirmed no goods from FastTech Solutions on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Payment permanently blocked. Vendor contract terminated.
+Days to resolve : 25
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

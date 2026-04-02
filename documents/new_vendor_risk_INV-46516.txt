@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-46516
+Vendor          : NewVendor Corp 12 (V-NEW-012)
+Category        : IT
+Invoice Date    : 2025-09-06
+PO Reference    : PO-69570
+Assessed By     : Oliver Grant, Vendor Risk Lead
+Reviewed By     : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 12 for $155,786.30.
+Vendor registered as new supplier 4 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $159,816.68 — unreconciled gap of $-4,030.38.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Vendor registered less than 30 days before invoice submission.
+Vendor onboarding checklist initiated by Oliver Grant.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Invoice approved after procurement confirmed vendor legitimacy.
+Days to resolve : 12
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Oliver Grant, Vendor Risk Lead

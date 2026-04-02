@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-58195
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2024-10-12
+PO Reference    : PO-90739
+Raised By       : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $69,845.43 against 
+contracted PO rate of $45,371.32 on PO-90739.
+Deviation of 53.94% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $24,474.11.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Lisa Okonkwo, AP Manager

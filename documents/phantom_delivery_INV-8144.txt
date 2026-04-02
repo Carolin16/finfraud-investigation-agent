@@ -1,0 +1,30 @@
+GOODS RECEIPT ALERT — PHANTOM DELIVERY
+============================================================
+Invoice ID      : INV-8144
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2026-02-06
+PO Reference    : PO-23006
+Raised By       : Fatima Al-Rashid, Warehouse Manager
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice INV-8144 submitted for $25,690.27 against PO-23006.
+Goods Receipt amount confirmed at $0.00 — no delivery recorded.
+Three-way match failed. Invoice amount cannot be validated against delivery.
+PO contracted value: $26,317.74.
+
+INVESTIGATION
+-------------
+Vendor claimed goods were delivered to an alternative site.
+Site inspection confirmed no goods from FastTech Solutions on premises.
+Payment blocked immediately on zero GR confirmation.
+
+RESOLUTION
+----------
+Invoice cancelled. Case referred to fraud investigation team.
+Days to resolve : 21
+Final outcome   : Confirmed phantom delivery. Referred to compliance team.
+Case closed by  : Lisa Okonkwo, AP Manager

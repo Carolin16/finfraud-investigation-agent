@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-52648
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2026-01-06
+PO Reference    : PO-65881
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $107,709.14 against 
+contracted PO rate of $88,349.00 on PO-65881.
+Deviation of 21.91% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $19,360.14.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

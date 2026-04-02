@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-91112
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-03-03
+PO Reference    : PO-76276
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $59,365.70 against 
+contracted PO rate of $47,113.22 on PO-76276.
+Deviation of 26.01% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $12,252.48.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Emma Thornton confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-6833
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2025-06-20
+PO Reference    : PO-99407
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $10,465.46 against 
+contracted PO rate of $6,591.79 on PO-99407.
+Deviation of 58.77% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $3,873.67.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Emma Thornton confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

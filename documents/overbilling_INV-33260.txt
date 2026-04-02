@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-33260
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-08-06
+PO Reference    : PO-83091
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $40,420.54 against 
+contracted PO rate of $26,529.34 on PO-83091.
+Deviation of 52.36% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $13,891.20.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Claire Walsh confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

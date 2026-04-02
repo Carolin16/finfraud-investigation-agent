@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-18682
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2026-03-24
+PO Reference    : PO-94217
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $34,510.68 against 
+contracted PO rate of $27,716.07 on PO-94217.
+Deviation of 24.52% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $6,794.61.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $6,794.61.
+Days to resolve : 15
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

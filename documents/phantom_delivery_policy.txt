@@ -1,0 +1,50 @@
+ACCOUNTS PAYABLE POLICY — PHANTOM DELIVERY AND GOODS RECEIPT VALIDATION
+Document Reference: AP-POL-003
+Issued by: Finance Compliance, Internal Controls Division
+Effective Date: January 2024 | Review Date: January 2025
+
+1. PURPOSE
+This policy establishes mandatory goods receipt validation procedures before
+any invoice payment is released. Phantom delivery fraud — where vendors
+invoice for goods or services never delivered — is one of the most damaging
+forms of AP fraud.
+
+2. THREE-WAY MATCH REQUIREMENT (GOODS RECEIPT FOCUS)
+No invoice may be approved for payment unless the Goods Receipt (GR) amount
+is confirmed and reconciled against the invoice amount within acceptable
+tolerance. A GR amount of zero constitutes an automatic payment block.
+
+3. ZERO GR POLICY
+If the system records a Goods Receipt amount of $0.00 at the time of invoice
+submission, the invoice is automatically blocked. The block may not be
+released by any AP staff member without physical confirmation from the
+receiving warehouse team.
+
+4. WAREHOUSE CONFIRMATION REQUIREMENTS
+The AP team must obtain written confirmation from the Warehouse Manager or
+designated site lead confirming:
+  — The goods or services described in the invoice were received
+  — The quantity and condition of goods matches the invoice
+  — The date of receipt
+
+Verbal confirmation is not acceptable. Confirmation must be documented in
+the AP system within 5 business days.
+
+5. VENDOR OBLIGATIONS
+Vendors must be able to supply the following on request:
+  — Signed proof of delivery (POD)
+  — Carrier tracking number and delivery confirmation
+  — Photos or inspection records where applicable
+
+Failure to provide proof of delivery within 10 business days results in
+automatic invoice rejection.
+
+6. ESCALATION
+Suspected phantom delivery cases must be escalated to the Head of Compliance
+within 24 hours of confirmation that no goods were received.
+Repeated phantom delivery attempts by a vendor result in immediate suspension
+from the approved vendor list.
+
+7. RECORD RETENTION
+All GR validation records, warehouse confirmations, and vendor
+communications must be retained for 7 years.

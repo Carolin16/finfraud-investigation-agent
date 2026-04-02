@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-27604
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-12-01
+PO Reference    : PO-86730
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $48,014.67 against 
+contracted PO rate of $30,599.65 on PO-86730.
+Deviation of 56.91% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $17,415.02.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+David Huang confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $17,415.02 rejected.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

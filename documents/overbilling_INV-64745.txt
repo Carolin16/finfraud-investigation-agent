@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-64745
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2025-02-27
+PO Reference    : PO-37876
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $9,407.26 against 
+contracted PO rate of $6,386.64 on PO-37876.
+Deviation of 47.30% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $3,020.62.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $3,020.62 rejected.
+Days to resolve : 13
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

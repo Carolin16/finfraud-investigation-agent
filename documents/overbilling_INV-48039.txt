@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-48039
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2024-08-13
+PO Reference    : PO-95466
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $45,915.17 against 
+contracted PO rate of $36,158.05 on PO-95466.
+Deviation of 26.98% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $9,757.12.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $9,757.12 rejected.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

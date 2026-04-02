@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-89144
+Vendor          : MedCo Supplies Inc (V-003)
+Category        : medical
+Invoice Date    : 2026-03-12
+PO Reference    : PO-45654
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $15,424.82 against 
+contracted PO rate of $12,662.94 on PO-45654.
+Deviation of 21.81% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $2,761.88.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Emma Thornton confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 12
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

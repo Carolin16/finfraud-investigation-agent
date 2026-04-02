@@ -1,0 +1,32 @@
+VENDOR RISK ASSESSMENT
+============================================================
+Invoice ID      : INV-72664
+Vendor          : NewVendor Corp 9 (V-NEW-009)
+Category        : IT
+Invoice Date    : 2025-10-03
+PO Reference    : PO-30479
+Assessed By     : Oliver Grant, Vendor Risk Lead
+Reviewed By     : Lisa Okonkwo, AP Manager
+============================================================
+
+FINDING
+-------
+First invoice submitted by NewVendor Corp 9 for $55,974.44.
+Vendor registered as new supplier 3 day(s) before invoice submission.
+Invoice amount exceeds high-value threshold triggering mandatory vendor review.
+GR amount: $55,094.33 — unreconciled gap of $880.11.
+KYC status: Incomplete at time of invoice submission.
+
+INVESTIGATION
+-------------
+Vendor registered less than 30 days before invoice submission.
+Vendor onboarding checklist initiated by Oliver Grant.
+Payment hold applied pending full due diligence.
+Procurement team asked to confirm vendor was legitimately engaged.
+
+RESOLUTION
+----------
+Payment held. Vendor failed enhanced due diligence checks.
+Days to resolve : 9
+Final outcome   : New vendor placed on enhanced monitoring for first 6 months.
+Case closed by  : Oliver Grant, Vendor Risk Lead

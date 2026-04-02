@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-52580
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2026-01-09
+PO Reference    : PO-31292
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $59,522.23 against 
+contracted PO rate of $47,861.34 on PO-31292.
+Deviation of 24.36% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $11,660.89.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 8
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

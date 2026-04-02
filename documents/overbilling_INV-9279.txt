@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-9279
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2025-09-07
+PO Reference    : PO-74249
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $76,444.40 against 
+contracted PO rate of $49,478.77 on PO-74249.
+Deviation of 54.50% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $26,965.63.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $26,965.63 rejected.
+Days to resolve : 19
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

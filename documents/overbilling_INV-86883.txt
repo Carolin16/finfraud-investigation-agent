@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-86883
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2025-07-24
+PO Reference    : PO-87009
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $69,449.80 against 
+contracted PO rate of $48,649.46 on PO-87009.
+Deviation of 42.76% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $20,800.34.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Procurement reviewed contract — no amendment clause triggered.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $20,800.34.
+Days to resolve : 15
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

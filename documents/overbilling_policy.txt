@@ -1,0 +1,46 @@
+ACCOUNTS PAYABLE POLICY — INVOICE VARIANCE AND OVERBILLING CONTROLS
+Document Reference: AP-POL-001
+Issued by: Finance Compliance, Internal Controls Division
+Effective Date: January 2024 | Review Date: January 2025
+
+1. PURPOSE
+This policy establishes the controls and escalation procedures for invoices
+that exceed contracted purchase order (PO) rates. It applies to all vendor
+invoices processed through the AP system.
+
+2. VARIANCE THRESHOLD RULES
+Invoices submitted above the contracted PO rate are classified as follows:
+
+  Tier 1 — Minor Variance (up to 5%)
+  Invoices may be auto-approved if the deviation does not exceed 5% of the
+  contracted PO rate. This accommodates minor rounding, currency fluctuation,
+  or nominal freight adjustments. No escalation required.
+
+  Tier 2 — Moderate Variance (5% to 15%)
+  Invoices must be reviewed by the AP Manager before payment release.
+  The vendor must provide written justification. Payment may be held for up
+  to 7 business days pending review.
+
+  Tier 3 — Significant Variance (above 15%)
+  Invoices exceeding the contracted PO rate by more than 15% must be escalated
+  to the Head of Procurement and CFO sign-off is required before any payment
+  is released. The vendor must supply documentary evidence of any rate change,
+  including a signed amendment to the original purchase order.
+
+3. THREE-WAY MATCH REQUIREMENT
+All invoices must pass a three-way match: invoice amount, PO amount, and
+Goods Receipt amount must align within Tier 1 tolerance before payment.
+A failed three-way match automatically triggers a payment hold.
+
+4. VENDOR RESPONSIBILITY
+Vendors must submit a formal rate amendment request at least 30 days before
+submitting invoices at revised rates. Verbal rate change agreements are not
+recognised and will result in invoice rejection.
+
+5. ESCALATION PATH
+AP Clerk → AP Manager → Head of Procurement → CFO
+Each escalation adds up to 5 business days to the payment cycle.
+
+6. RECORD RETENTION
+All overbilling flags, vendor communications, and resolution notes must be
+retained in the dispute log system for a minimum of 7 years.

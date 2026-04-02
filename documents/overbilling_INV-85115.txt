@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-85115
+Vendor          : Apex Supplies Ltd (V-001)
+Category        : industrial
+Invoice Date    : 2024-09-07
+PO Reference    : PO-34522
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $45,779.29 against 
+contracted PO rate of $35,470.76 on PO-34522.
+Deviation of 29.06% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $10,308.53.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $10,308.53.
+Days to resolve : 20
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

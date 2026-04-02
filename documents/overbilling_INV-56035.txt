@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-56035
+Vendor          : GlobalParts Co (V-006)
+Category        : industrial
+Invoice Date    : 2026-02-04
+PO Reference    : PO-50694
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $78,240.31 against 
+contracted PO rate of $50,315.43 on PO-50694.
+Deviation of 55.50% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $27,924.88.
+
+INVESTIGATION
+-------------
+Vendor claimed PO was raised at outdated rates.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Invoice reprocessed at contracted rate. Overage of $27,924.88 rejected.
+Days to resolve : 16
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

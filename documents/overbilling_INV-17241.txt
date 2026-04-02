@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-17241
+Vendor          : TechServe Inc (V-008)
+Category        : IT
+Invoice Date    : 2024-08-17
+PO Reference    : PO-77184
+Raised By       : Sarah Chen, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $65,582.85 against 
+contracted PO rate of $41,397.63 on PO-77184.
+Deviation of 58.42% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $24,185.22.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Raj Mehta confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Raj Mehta, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 11
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Sarah Chen, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-80565
+Vendor          : CleanCo Services (V-009)
+Category        : facilities
+Invoice Date    : 2024-07-20
+PO Reference    : PO-20262
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $8,193.99 against 
+contracted PO rate of $5,497.61 on PO-20262.
+Deviation of 49.05% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $2,696.38.
+
+INVESTIGATION
+-------------
+Vendor stated revised pricing was communicated via email.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $2,696.38.
+Days to resolve : 21
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager

@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-31503
+Vendor          : ProMed Devices (V-010)
+Category        : medical
+Invoice Date    : 2024-06-27
+PO Reference    : PO-11906
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $138,553.89 against 
+contracted PO rate of $98,276.33 on PO-11906.
+Deviation of 40.98% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $40,277.56.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+Emma Thornton confirmed no authorised rate change on record.
+Payment withheld pending resolution.
+Escalated to Emma Thornton, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor issued credit note for $40,277.56.
+Days to resolve : 17
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

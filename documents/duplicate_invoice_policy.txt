@@ -1,0 +1,45 @@
+ACCOUNTS PAYABLE POLICY — DUPLICATE INVOICE DETECTION AND CONTROLS
+Document Reference: AP-POL-002
+Issued by: Finance Compliance, Internal Controls Division
+Effective Date: January 2024 | Review Date: January 2025
+
+1. PURPOSE
+This policy defines the controls for detecting, holding, and resolving
+duplicate invoice submissions from vendors. Duplicate payments represent
+a significant source of financial loss and vendor relationship risk.
+
+2. DEFINITION OF A DUPLICATE INVOICE
+An invoice is classified as a potential duplicate if any of the following
+conditions are met:
+
+  a) The same vendor submits an invoice for the same PO reference within
+     7 calendar days of a previous invoice from that vendor on the same PO.
+
+  b) The invoice number is identical to a previously submitted invoice from
+     the same vendor, regardless of date.
+
+  c) The invoice amount matches a previously paid invoice within a 5%
+     tolerance, same vendor, same PO reference, within a 30-day window.
+
+3. AUTOMATIC PAYMENT HOLD
+Any invoice flagged as a potential duplicate must be placed on automatic
+payment hold. The hold may not be released without written confirmation
+from the AP Manager.
+
+4. VENDOR NOTIFICATION
+The vendor must be notified within 2 business days of the flag being raised.
+The notification must request:
+  — Confirmation of whether the second invoice is intentional
+  — Evidence if the second invoice covers a separate delivery or service
+  — A written withdrawal of the duplicate if confirmed as an error
+
+5. RESOLUTION TIMELINE
+Duplicate flags must be resolved within 10 business days. If unresolved,
+the invoice is rejected and returned to the vendor.
+
+6. FINANCIAL IMPACT TRACKING
+All prevented duplicate payments must be logged as AP savings in the
+monthly controls report submitted to the CFO.
+
+7. RECORD RETENTION
+Duplicate flags and resolution records must be retained for 7 years.

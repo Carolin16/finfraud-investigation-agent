@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-37968
+Vendor          : BioTech Equipment Ltd (V-002)
+Category        : medical
+Invoice Date    : 2024-10-10
+PO Reference    : PO-79534
+Raised By       : Mark Reynolds, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $253,866.08 against 
+contracted PO rate of $178,504.91 on PO-79534.
+Deviation of 42.22% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $75,361.17.
+
+INVESTIGATION
+-------------
+Vendor cited increased raw material costs not reflected in PO.
+Contract audit confirmed original PO rate remains in force.
+Payment withheld pending resolution.
+Escalated to David Huang, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 10
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : Mark Reynolds, AP Manager

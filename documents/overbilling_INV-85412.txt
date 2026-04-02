@@ -1,0 +1,31 @@
+DISPUTE LOG
+============================================================
+Invoice ID      : INV-85412
+Vendor          : FastTech Solutions (V-005)
+Category        : IT
+Invoice Date    : 2024-08-01
+PO Reference    : PO-67699
+Raised By       : James Patel, AP Manager
+============================================================
+
+FINDING
+-------
+Invoice submitted for $42,332.66 against 
+contracted PO rate of $30,582.11 on PO-67699.
+Deviation of 38.42% detected — exceeds permitted variance threshold.
+Three-way match status: Failed.
+Overage amount: $11,750.55.
+
+INVESTIGATION
+-------------
+Vendor claimed a verbal rate change agreement with procurement.
+No written evidence of rate change found in vendor correspondence.
+Payment withheld pending resolution.
+Escalated to Claire Walsh, Head of Procurement.
+
+RESOLUTION
+----------
+Vendor agreed to resubmit at PO rate after escalation.
+Days to resolve : 18
+Final outcome   : Confirmed overbilling. Vendor placed on enhanced monitoring.
+Case closed by  : James Patel, AP Manager
