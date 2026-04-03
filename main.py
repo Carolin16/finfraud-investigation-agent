@@ -27,4 +27,3 @@ invoice = {
 }
 
 results = orchestrator.run(invoice)
-print(results)

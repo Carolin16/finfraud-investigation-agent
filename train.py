@@ -37,12 +37,4 @@ predict_proba() returns a 2-column array — one column per class
 y_pred = model.predict(X_test)
 y_prob = model.predict_proba(X_test)[: ,-1]
 
-
-print(f"y_test shape: {y_test.shape}")
-print(f"y_prob shape: {y_prob.shape}")
-
-print(classification_report(y_test, y_pred))
-print(f"ROC-AUC Score: {roc_auc_score(y_test, y_prob):.4f}")
-
 joblib.dump(model,"models/random_forest.joblib")
-print("Model saved to models/random_forest.joblib")

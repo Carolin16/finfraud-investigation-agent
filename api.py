@@ -59,7 +59,7 @@ def invoice(invoice_data:InvoiceRequest):
 
 @app.post("/explain")
 def explain_invoice(request:ExplainRequest):
-    print("explain endpoint hit")        # ← add this
+
     explanation = ragExplainer.explain(
 
         invoice = request.invoice,

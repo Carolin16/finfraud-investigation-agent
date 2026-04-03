@@ -221,12 +221,33 @@ class RAGExplainer:
         """
 
         prompt = f"""
-
         You are an AP fraud analyst reviewing a flagged vendor invoice.
 
-        SIMILAR CONFIRMED FRAUD CASES (compare the deviation % range and 
-        three-way match status from these cases against the current invoice 
-        when writing your EVIDENCE line):
+        RESPONSE FORMAT — follow this exactly, no exceptions:
+
+        FINDING: <one sentence only>
+
+        EVIDENCE: <one sentence only>
+         In the EVIDENCE section, 
+         always write dollar amounts as plain text like $83,305.81 — never in backticks or code format
+
+        RISK: <one sentence only>
+
+        ACTION:
+        - <step 1>
+        - <step 2>
+
+        STRICT RULES:
+        - Each section starts on its own new line with its label
+        - Never put EVIDENCE, RISK or ACTION content inside the FINDING section
+        - Never wrap numbers in backticks — write $30,500 not `30,500`
+        - Never use field names like days_since_last_invoice, gr_amount, po_amount — use plain English instead
+        - Always cite invoice ID, vendor name, and dollar amounts
+        - Keep total response under 100 words
+
+        ---
+
+        SIMILAR CONFIRMED FRAUD CASES:
         {cases_text}
 
         CURRENT INVOICE:
@@ -235,39 +256,13 @@ class RAGExplainer:
         DETECTED ANOMALIES:
         {flags_text}
 
-
-        Write your analysis in exactly this format:
-
-        FINDING: [One sentence — reference the invoice ID, vendor name, 
-        and specific dollar amounts that triggered the flag]
-        EVIDENCE: [One sentence — compare against the similar cases above, 
-        citing their deviation % range or pattern match]
-        
-        RISK: [One sentence — specific financial exposure in dollars, 
-        note the vendor category risk level]
-        ACTION:
-        - [Specific step based on anomaly type:
-        overbilling       - verify contracted rate against PO reference
-        duplicate         - check days_since_last_invoice and place payment hold
-        phantom_delivery  - confirm GR amount is genuinely 0 before any payment
-        new_vendor_risk   - verify vendor credentials and run vetting check]
-    
-        - [Second specific step]
-        Rules:
-        - Always cite the invoice ID and PO reference
-        - Second action must be an escalation or approval step, not a review step
-        - FINDING must never use the anomaly type word — describe what 
-        the numbers show instead
-        - Always cite actual dollar amounts
-        - Never define what the anomaly type is
-        - Keep total response under 100 words
+        Now write your analysis following the format above exactly.
         """
-
         response = self.openai_client.chat.completions.create(
 
             model = "gpt-4o",
             messages = [{"role":"user","content":prompt}]
-        )
+            )
 
         return response.choices[0].message.content
     
