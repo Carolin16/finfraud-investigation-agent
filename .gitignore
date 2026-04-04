@@ -4,13 +4,7 @@ __pycache__/
 *.pyc 
 .env 
 venv/ 
- 
-# Large data files 
-data/p2p_invoices.csv 
- 
-# Models 
-models/*.pkl 
 
 # IDE 
 .vscode/ 
-.idea/ 
+.idea/
