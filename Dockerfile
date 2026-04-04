@@ -7,7 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN python data/generate_p2p_data.py
 RUN python train.py
 
 EXPOSE 7860
