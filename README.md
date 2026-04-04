@@ -1,3 +1,12 @@
+---
+title: P2P Anomaly Detection
+emoji: 
+colorFrom: red
+colorTo: orange
+sdk: docker
+pinned: false
+---
+
 # P2P Anomaly Detection with RAG-based Explanation
 
 > Combining Machine Learning and Retrieval-Augmented Generation to make invoice fraud explainable in a Procure-to-Pay cycle.
