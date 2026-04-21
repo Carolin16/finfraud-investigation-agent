@@ -8,16 +8,17 @@ from tools.fetch_vendor_history import fetch_vendor_history
 from tools.cross_reference_po import cross_reference_po
 from tools.generate_sar_report import generate_sar_report
 
-# Bind tools to LLM to make it agentic
-llm = ChatOpenAI(model="gpt-4o", temperature=0)
-llm_with_tools = llm.bind_tools([
-    retrieve_similar_cases,
-    fetch_vendor_history,
-    cross_reference_po,
-    generate_sar_report
-])
 
 def investigate_deep_node(state : AgentState) -> AgentState:
+
+    # Bind tools to LLM to make it agentic
+    llm = ChatOpenAI(model="gpt-4o", temperature=0)
+    llm_with_tools = llm.bind_tools([
+        retrieve_similar_cases,
+        fetch_vendor_history,
+        cross_reference_po,
+        generate_sar_report
+    ])
 
     invoice = state["invoice"]
     flags = state["anomaly_flags"]
