@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import List,Optional
 
 """ Request schemas
     Invoice data validation for invoice request
@@ -21,3 +22,12 @@ class InvoiceRequest(BaseModel):
 class ExplainRequest(BaseModel):
     invoice: dict
     flags : list
+
+class InvestigateResponse(BaseModel):
+    invoice_id : str
+    risk_level : str
+    decision : str
+    ml_score : float
+    anomaly_flags : List[dict]
+    explanation : str
+    sar_report : Optional[str] = None

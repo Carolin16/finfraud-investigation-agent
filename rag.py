@@ -11,10 +11,10 @@ class RAGExplainer:
         # Load the embedding model (converts text to vectors)
         self.embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
-         # Set up ChromaDB (in-memory for now)
-        self.chroma_client = chromadb.Client()
-        self.cases_collection = self.chroma_client.create_collection(name="cases")
-        self.docs_collection = self.chroma_client.create_collection(name="documents")
+         # Set up ChromaDB 
+        self.chroma_client = chromadb.PersistentClient(path="chroma_db")
+        self.cases_collection = self.chroma_client.get_or_create_collection(name="cases")
+        self.docs_collection = self.chroma_client.get_or_create_collection(name="documents")
         
         
          # Set up OpenAI client
@@ -26,6 +26,9 @@ class RAGExplainer:
         self.load_documents()
 
     def load_cases(self):
+        if self.cases_collection.count() > 0:
+            print("[RAG] Cases already loaded, skipping encode")
+            return
         # Load the CSV
         df = pd.read_csv("data/p2p_invoices.csv")
 
@@ -106,11 +109,18 @@ class RAGExplainer:
             query_embeddings=query_embedding,
             n_results=3
         )
-        docs_results = self.docs_collection.query(
-            query_embeddings=query_embedding,
-            n_results=2,
-            where = {"doc_type" : "reference"}
-        )
+        docs_results = None
+        try:
+            doc_count = self.docs_collection.count()
+            if doc_count > 0:
+                safe_n = min(2, doc_count)
+                docs_results = self.docs_collection.query(
+                    query_embeddings=query_embedding,
+                    n_results=safe_n,
+                    where={"doc_type": "reference"}
+                )
+        except Exception as e:
+            print(f"[RAG] docs_collection query failed (non-fatal): {e}")
 
         """
         results comes back as a nested dictionary from ChromaDB
@@ -139,9 +149,10 @@ class RAGExplainer:
         for metadata in case_results["metadatas"][0]:
             #load cases
             similar_cases.append(metadata["text"])
-        for docs in docs_results["documents"][0]:
-            #load documents
-            similar_cases.append(docs)
+        if docs_results and docs_results.get("documents") and docs_results["documents"][0]:
+            for docs in docs_results["documents"][0]:
+                #load documents
+                similar_cases.append(docs)
 
         
         print("Retrieved:")
@@ -267,7 +278,9 @@ class RAGExplainer:
         return response.choices[0].message.content
     
     def load_documents(self , documents_dir = "documents"):
-
+        if self.docs_collection.count() > 0:
+            print("[RAG] Documents already loaded, skipping encode")
+            return
         texts = []
         ids = []
         metadatas_list = []
@@ -301,4 +314,4 @@ class RAGExplainer:
             metadatas=metadatas_list,
             ids = ids
         )
-        print("load_documents complete")  # ← add this
+        print("load_documents complete") 

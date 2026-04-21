@@ -1,18 +1,43 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from models.schemas import InvoiceRequest,ExplainRequest
+
+from models.schemas import InvoiceRequest,ExplainRequest,InvestigateResponse
 from orchestrator.anomaly_orchestrator import AnomalyOrchestrator
 from detectors.duplicate_detector import DuplicateDetector
 from detectors.new_vendor_risk_detector import NewVendorRiskDetector
 from detectors.overbilling_detector import OverbillingDetector
 from detectors.phantom_delivery_detector import PhantomDeliveryDetector
+
 from rag import RAGExplainer
+from agent import agent
+
 import joblib
 import numpy as np
+import threading
 
-#load pickle file
+# load pickle file
 model = joblib.load("models/random_forest.joblib")
-ragExplainer = RAGExplainer()
+
+# lazy loading on endpoint hit
+rag_ready = threading.Event()
+ragExplainer = None
+
+def _warm_rag():
+    global ragExplainer
+    # loads BERT + encodes cases + docs
+    ragExplainer = RAGExplainer()  
+    # signal RAG ready
+    rag_ready.set()  
+    print("[RAG] Pre-warm complete")
+
+# Kick off on startup — server is live immediately, RAG loads in parallel
+threading.Thread(target=_warm_rag, daemon=True).start()
+
+def get_rag():
+    # blocks only if someone calls before it's done
+    rag_ready.wait()  
+    return ragExplainer
+
 fraudDetectors = AnomalyOrchestrator([DuplicateDetector(),NewVendorRiskDetector(),OverbillingDetector(),PhantomDeliveryDetector()])
 app = FastAPI()
 
@@ -60,7 +85,7 @@ def invoice(invoice_data:InvoiceRequest):
 @app.post("/explain")
 def explain_invoice(request:ExplainRequest):
 
-    explanation = ragExplainer.explain(
+    explanation = get_rag().explain(
 
         invoice = request.invoice,
         flags = request.flags
@@ -70,3 +95,33 @@ def explain_invoice(request:ExplainRequest):
 
         "explanation" : explanation
     }
+
+@app.post("/investigate",response_model=InvestigateResponse)
+def investigate(invoice_data : InvoiceRequest):
+
+    invoice_dict = invoice_data.model_dump()
+    # initalise state
+    initial_state = {
+        
+        "invoice" : invoice_dict,
+        "anomaly_flags" : [],
+        "ml_score" : 0.0,
+        "risk_level" : "",
+        "decision" : "",
+        "similar_cases" : [],
+        "sar_report" : None,
+        "explanation" : ""
+    }
+
+    result = agent.invoke(initial_state)
+
+    # return response
+    return InvestigateResponse(
+        invoice_id=invoice_data.invoice_id,
+        risk_level=result["risk_level"],
+        decision=result["decision"],
+        ml_score=result["ml_score"],
+        anomaly_flags=result["anomaly_flags"],
+        explanation=result["explanation"],
+        sar_report=result.get("sar_report")
+    )

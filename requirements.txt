@@ -10,3 +10,5 @@ sentence-transformers
 openai
 streamlit
 requests
+langgraph
+langchain-openai
