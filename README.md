@@ -1,273 +1,252 @@
----
-title: P2P Anomaly Detection
-colorFrom: red
-colorTo: pink
-sdk: docker
-pinned: false
----
-# P2P Anomaly Detection with RAG-based Explanation
+# FinFraud Investigation Agent
 
-> Combining Machine Learning and Retrieval-Augmented Generation to make invoice fraud explainable in a Procure-to-Pay cycle.
+An agentic AI system that autonomously investigates B2B payment fraud, scores risk using machine learning, and generates Suspicious Activity Reports (SARs).
 
-This project builds an AI system that automatically detects suspicious vendor invoices in a Procure-to-Pay (P2P) process and explains why they were flagged. A machine learning model scans incoming invoices and scores them for risk. When a suspicious invoice is found, a RAG pipeline searches through procurement policy documents and vendor contracts to find relevant context, then uses an LLM to generate a plain-English explanation with a recommended action.
+> **Evolved from:** [P2P Anomaly Detection](https://carolinjames-p2p-anomaly-detection-ui.hf.space) — a rule-based fraud detector. This system upgrades that foundation into a full agentic investigation pipeline.
 
-**Live Demo:** https://carolinjames-p2p-anomaly-detection-ui.hf.space
+## Why Agentic? The Business Case
 
----
+Traditional fraud detection systems flag transactions and stop there. A compliance analyst then has to manually pull vendor history, cross-check purchase orders, retrieve similar past cases, and write a report — a process that can take hours per case.
 
-## Terminology
+This system replaces that manual workflow with an autonomous agent that makes its own decision on whether to auto-approve, escalate for human review, or deep-investigate based on risk level. It calls specialized tools only when needed, retrieves semantically similar past fraud cases from a vector database to inform its reasoning, and produces a structured SAR report that a compliance officer can act on immediately.
 
-Understanding the domain language is key to understanding how this system works.
+**The business impact:**
 
-### Procure-to-Pay (P2P)
-The end-to-end business process that covers everything from raising a purchase request to making a payment to a vendor. It includes: requisition → purchase order → goods receipt → invoice → payment. Fraud and errors typically occur at the invoice stage, which is what this system monitors.
+| Without Agent | With Agent |
+|---|---|
+| Analyst reviews every flagged invoice | LOW risk cases are auto-approved without human intervention |
+| Manual PO cross-check (15–30 min) | Automated in milliseconds |
+| SAR written from scratch | Auto-generated, structured, ready to file |
+| No pattern matching against past cases | RAG retrieves top 3 similar confirmed frauds |
+| Binary flag: fraud or not | Three-tier risk scoring with explainability |
 
-### Purchase Order (PO)
-A legally binding document a company sends to a vendor that authorises a specific purchase at an agreed price. Every invoice in this system is matched against a PO. If the invoice amount exceeds the PO amount, that is a red flag.
-
-### Goods Receipt (GR)
-A record confirming that ordered goods or services were actually received by the company's warehouse or operations team. A GR amount of $0 means nothing was received — if a vendor still invoices for it, that is a phantom delivery.
-
-### Three-Way Match
-The standard AP (Accounts Payable) control that checks three documents agree before a payment is approved:
-- **Purchase Order** — what was authorised to be bought and at what price
-- **Goods Receipt** — what was actually received
-- **Invoice** — what the vendor is asking to be paid
-
-All three must match within an acceptable tolerance. A failed three-way match is one of the strongest signals of a billing anomaly.
-
-### Deviation %
-The percentage difference between the invoice amount and the PO amount. Calculated as `((invoice_amount - po_amount) / po_amount) * 100`. AP policy in this system uses tiered thresholds: up to 5% is auto-approved, 5-15% requires manager sign-off, above 15% requires CFO escalation.
-
-### AP (Accounts Payable)
-The team or function responsible for processing and paying vendor invoices. They are the primary users of a system like this — the anomaly flags and RAG explanations are designed to support their review and escalation decisions.
-
-### KYC (Know Your Vendor)
-The due diligence process for verifying a new vendor's legitimacy before onboarding them and processing payments. New vendors with no transaction history requesting high-value invoices are flagged until KYC is complete.
-
-### RAG (Retrieval-Augmented Generation)
-An AI technique that grounds an LLM's response in retrieved documents rather than relying on its training data alone. In this system, when an anomaly is detected the RAG pipeline retrieves relevant AP policy documents, vendor contracts, and past confirmed fraud cases from a ChromaDB vector store, then passes them as context to GPT-4o to generate a grounded explanation.
-
-### Vendor Contract
-A document that specifies the agreed rate bands, payment terms, and service scope between the company and an established vendor. This system stores 10 vendor contracts in the RAG knowledge base — if an invoice deviates from the contracted rate, the explanation can cite the specific contract clause.
-
-### Dispute Log
-A record of a past anomalous invoice that was investigated, resolved, and documented. This system uses 800 synthetic dispute logs (200 per anomaly type) as RAG source documents — they give the LLM real precedent to cite when explaining why a current invoice looks suspicious.
-
----
-
-## Anomaly Types Detected
-
-| Anomaly | Trigger Condition | Risk |
-|---|---|---|
-| **Overbilling** | `invoice_amount > po_amount` | Vendor charging above the contracted rate |
-| **Duplicate Invoice** | `days_since_last_invoice <= 7` | Same vendor re-submitting for the same PO within 7 days |
-| **Phantom Delivery** | `gr_amount == 0` | Invoice raised for goods never received |
-| **New Vendor Risk** | `is_new_vendor = true` and `invoice_amount > $10,000` | Unknown vendor requesting high-value payment with no history |
-
----
-
-## Architecture
+## LangGraph Decision Flow
 
 ```
-Invoice JSON
-     |
-     v
-+-----------------------------+
-|  POST /invoice (FastAPI)    |
-|  +-- Field validation       |
-|  +-- 4 rule-based detectors |
-|  +-- Random Forest scorer   |
-+------------+----------------+
-             | anomaly flagged
-             v
-+-----------------------------+
-|  POST /explain (FastAPI)    |
-|  +-- ChromaDB retrieval     |
-|  |   +-- Past fraud cases   |
-|  |   +-- AP policy docs     |
-|  |   +-- Vendor contracts   |
-|  +-- GPT-4o explanation     |
-+------------+----------------+
-             |
-             v
-     Streamlit Demo UI
+START
+  │
+  ▼
+validate_invoice
+  │
+  ▼
+detect_anomalies
+  │
+  ▼
+get_ml_score
+  │
+  ▼
+decide_risk_level
+  │
+  ├── LOW ──────────────► auto_approve
+  │
+  ├── MEDIUM ───────────► flag_for_human_review
+  │
+  └── HIGH ────────────► investigate_deep
+                              │
+                    ┌─────────┼──────────┬─────────────┐
+                    ▼         ▼          ▼             ▼
+             similar_cases  vendor_   cross_ref_   generate_
+                           history       po         sar_report
+                    │         │          │             │
+                    └─────────┴──────────┴─────────────┘
+                                    │
+                                   END
 ```
 
----
+**Why LangGraph over a simple chain?**
 
-## Model Learnings
+A standard LLM chain runs every step for every invoice. LangGraph gives conditional routing — the deep investigation and tool calls only trigger when the risk level warrants it. This mirrors how a real compliance team operates: not every invoice deserves a full audit.
 
-### Random Forest Classifier
-- Trained on 20,000 synthetic P2P invoices (80% normal, 5% each anomaly type)
-- 7 features: `po_amount`, `invoice_amount`, `gr_amount`, `deviation_pct`, `days_since_last_invoice`, `is_new_vendor`, `three_way_match`
-- Achieved **1.00 accuracy** and **1.0000 ROC-AUC** on test data
-- The perfect score is expected on synthetic data — real-world data would show lower scores as anomalies are more ambiguous
-- Model is trained at Docker build time on Hugging Face Spaces — no binary file stored in the repo
+The `decide_risk_level` node evaluates ML score alongside anomaly type and routes accordingly. Phantom deliveries and duplicate invoices always force HIGH regardless of score because those are binary indicators of fraud, not probabilistic ones.
 
-### What the model learns
-The Random Forest picks up on feature combinations that rule-based detectors alone cannot catch:
-- An invoice from a known vendor with a small deviation but zero GR — individually minor flags, combined a strong fraud signal
-- A new vendor invoice just under the $10,000 threshold — rule-based misses it, ML scores it high based on other features
-- Repeated invoices with matching amounts but slightly different PO references — pattern recognised across feature combinations
+## Stack
 
-### Rule-based vs ML — why both
-| Approach | Strength | Weakness |
+| Layer | Technology |
+|---|---|
+| Agent orchestration | LangGraph |
+| LLM | OpenAI GPT-4o |
+| ML model | Random Forest (scikit-learn) |
+| Vector store | ChromaDB (persistent) |
+| Embeddings | sentence-transformers all-MiniLM-L6-v2 |
+| Backend | FastAPI |
+| Frontend | Streamlit (dark theme) |
+
+## Fraud Detection Coverage
+
+| Anomaly Type | Detection Logic | Risk |
 |---|---|---|
-| Rule-based detectors | Explainable, auditable, domain-driven | Misses edge cases and combined signals |
-| Random Forest | Catches complex patterns, scores confidence | Black box without RAG explanation layer |
-| Combined | Flags with rules, scores with ML, explains with RAG | Requires all three layers to be maintained |
+| Phantom Delivery | gr_amount equals 0 | Always HIGH |
+| Duplicate Invoice | Same vendor and PO within 7 days | Always HIGH |
+| Overbilling | invoice_amount exceeds po_amount | ML scored |
+| New Vendor Risk | is_new_vendor true with amount above $10,000 | ML scored |
 
-### RAG Pipeline
-- **Embedding model:** `sentence-transformers/all-MiniLM-L6-v2` — lightweight, fast, good semantic similarity
-- **Vector store:** ChromaDB with two collections — one for past fraud cases, one for policy/contract documents
-- **Retrieval strategy:** Hybrid — 3 similar past cases + 2 policy/contract docs per query, using metadata filters to guarantee policy retrieval
-- **Generation:** GPT-4o with a structured prompt that enforces FINDING / EVIDENCE / RISK / ACTION format
-- **Key insight:** Separating cases and policy documents into two collections prevents policy docs from being crowded out by the larger case collection
+## ML Model
 
----
+Algorithm: Random Forest trained on 21,500 rows including 800 synthetic borderline MEDIUM cases to prevent binary score cliff.
 
-## Feature Descriptions
+**Top features by importance:**
 
-| Feature | Type | Description |
-|---|---|---|
-| `invoice_id` | string | Unique invoice identifier |
-| `vendor_id` | string | Vendor code (`V-001` = known, `V-NEW-XXX` = new) |
-| `vendor_name` | string | Vendor display name |
-| `vendor_category` | string | Category: `medical`, `industrial`, `IT`, `stationery`, `facilities`, `safety` |
-| `po_reference` | string | Purchase Order reference number |
-| `po_amount` | float | Pre-approved spend amount from PO |
-| `invoice_amount` | float | Amount vendor is requesting payment for |
-| `gr_amount` | float | Value of goods confirmed received (`0` = nothing received) |
-| `deviation_pct` | float | % difference between invoice and PO amount |
-| `days_since_last_invoice` | int | Days since vendor last submitted an invoice |
-| `is_new_vendor` | int | `1` = no prior transaction history, `0` = known vendor |
-| `three_way_match` | int | `1` = PO/GR/Invoice all agree, `0` = mismatch detected |
-| `invoice_date` | string | Date invoice was submitted |
-| `anomaly_type` | string | Human-readable anomaly label *(not used in training)* |
-| `label` | int | Target variable — `0` = normal, `1` = anomaly |
-
----
+| Feature | Importance |
+|---|---|
+| days_since_last_invoice | 0.374 |
+| three_way_match | 0.338 |
+| deviation_pct | 0.113 |
+| is_new_vendor | 0.085 |
+| gr_amount | 0.070 |
 
 ## RAG Knowledge Base
 
-| Document Type | Count | Purpose |
-|---|---|---|
-| Dispute logs | 800 | Past confirmed fraud cases with investigation notes (200 per anomaly type) |
-| AP policy documents | 4 | Internal rules per anomaly type — thresholds, hold periods, escalation paths |
-| Vendor contracts | 10 | Contracted rate bands and payment terms per established vendor |
+When an invoice reaches `investigate_deep`, the agent builds a semantic query from the invoice fields and retrieves grounded context from two sources:
 
----
+**Case index** — 200 confirmed fraud cases embedded into ChromaDB using sentence-transformers. Each case is stored as a human-readable sentence covering anomaly type, vendor, amounts, deviation, and match status. The top 3 most semantically similar cases are retrieved for every HIGH risk investigation.
+
+**Policy and contract documents** — vendor framework contracts, overbilling policy documents, and dispute logs are embedded and stored separately. The agent retrieves the 2 most relevant reference documents to ground the SAR in actual policy language rather than generic reasoning.
+
+ChromaDB uses `PersistentClient` so all embeddings survive server restarts. The BERT embedding model pre-warms in a background thread on startup so the first investigation request is fast.
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | / | Health check |
+| POST | /investigate | Full LangGraph agent pipeline |
+| POST | /invoice | Legacy anomaly detection |
+| POST | /explain | RAG explanation only |
+
+## Test Scenarios
+
+**HIGH — Phantom Delivery** (ml_score approximately 0.99)
+```json
+{
+  "invoice_id": "INV-TEST-001", "vendor_id": "V-007",
+  "vendor_name": "Apex Supplies", "vendor_category": "Logistics",
+  "po_reference": "PO-9001", "po_amount": 50000, "invoice_amount": 50000,
+  "gr_amount": 0, "deviation_pct": 0.0, "days_since_last_invoice": 3,
+  "is_new_vendor": false, "three_way_match": false, "invoice_date": "2024-01-15"
+}
+```
+
+**MEDIUM — Borderline Overbilling** (ml_score approximately 0.65)
+```json
+{
+  "invoice_id": "INV-TEST-MED", "vendor_id": "V-012",
+  "vendor_name": "MidRange Supplies Co", "vendor_category": "Supply Chain",
+  "po_reference": "PO-5005", "po_amount": 10000, "invoice_amount": 11800,
+  "gr_amount": 11800, "deviation_pct": 0.18, "days_since_last_invoice": 10,
+  "is_new_vendor": false, "three_way_match": false, "invoice_date": "2024-01-18"
+}
+```
+
+**LOW — Clean Invoice** (ml_score approximately 0.04)
+```json
+{
+  "invoice_id": "INV-TEST-002", "vendor_id": "V-008",
+  "vendor_name": "TechParts Ltd", "vendor_category": "IT",
+  "po_reference": "PO-1002", "po_amount": 5000, "invoice_amount": 4900,
+  "gr_amount": 4900, "deviation_pct": -0.02, "days_since_last_invoice": 45,
+  "is_new_vendor": false, "three_way_match": true, "invoice_date": "2024-01-20"
+}
+```
+
+## Running Locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/finfraud-investigation-agent.git
+cd finfraud-investigation-agent
+
+pip install -r requirements.txt
+
+cp .env.example .env
+# Add your OPENAI_API_KEY to .env
+
+uvicorn api:app --reload
+
+# New terminal
+streamlit run app.py
+```
+
+## Deploying to Railway
+
+The backend and frontend are deployed as two separate Railway services from the same repository using separate Dockerfiles.
+
+**Step 1 — Create a Railway account and install the CLI**
+```bash
+npm install -g @railway/cli
+railway login
+```
+
+**Step 2 — Deploy the backend**
+
+1. Go to [railway.app](https://railway.app) and click New Project
+2. Select Deploy from GitHub repo and connect your repository
+3. In service settings, set the custom Dockerfile path to `Dockerfile.backend`
+4. Add environment variables in the Railway dashboard:
+   - `OPENAI_API_KEY` — your OpenAI key
+5. Railway will assign a public URL to the backend (e.g. `https://finfraud-api.up.railway.app`)
+
+**Step 3 — Deploy the frontend**
+
+1. In the same Railway project, click New Service
+2. Connect the same repository again
+3. Set the custom Dockerfile path to `Dockerfile.frontend`
+4. Add environment variables:
+   - `BACKEND_URL` — paste the backend URL from Step 2
+5. Railway will assign a separate public URL for the Streamlit app
+
+**Step 4 — Verify**
+
+Visit the frontend URL, select a scenario, and click Investigate. The backend warms up the BERT model in the background on first start — subsequent requests are fast.
 
 ## Project Structure
 
 ```
-p2p-anomaly-detection/
-+-- api.py                        <- FastAPI app -- /invoice and /explain endpoints
-+-- app.py                        <- Streamlit demo UI
-+-- rag.py                        <- RAGExplainer -- ChromaDB retrieval + GPT-4o
-+-- train.py                      <- Random Forest training script
-+-- requirements.txt              <- All dependencies
-+-- Dockerfile                    <- Docker config for HF Spaces backend
-+-- README.md
-+-- data/
-|   +-- p2p_invoices.csv          <- 20,000 row synthetic dataset
-|   +-- generate_p2p_data.py      <- Data generation script
-+-- documents/                    <- 814 source documents for RAG
-+-- interfaces/
-|   +-- base_detector.py
-+-- validators/
-|   +-- invoice_validator.py
-+-- detectors/
-|   +-- overbilling_detector.py
-|   +-- duplicate_detector.py
-|   +-- phantom_delivery_detector.py
-|   +-- new_vendor_risk_detector.py
-+-- orchestrator/
-    +-- anomaly_orchestrator.py
+api.py                        FastAPI backend
+app.py                        Streamlit UI (dark theme)
+agent.py                      LangGraph agent graph
+state.py                      AgentState TypedDict
+rag.py                        RAGExplainer (ChromaDB and sentence-transformers)
+Dockerfile.backend            Backend container
+Dockerfile.frontend           Frontend container
+nodes/
+  validate_node.py
+  detect_node.py
+  get_ml_score_node.py
+  decide_risk_node.py
+  auto_approve_node.py
+  flag_for_review_node.py
+  investigate_deep_node.py
+tools/
+  retrieve_similar_cases.py
+  fetch_vendor_history.py
+  cross_reference_po.py
+  generate_sar_report.py
+detectors/
+  overbilling_detector.py
+  duplicate_detector.py
+  phantom_delivery_detector.py
+  new_vendor_risk_detector.py
+models/
+  random_forest.joblib
+  schemas.py
+data/
+  p2p_invoices.csv            21,500 rows including 800 synthetic MEDIUM cases
+documents/                    Policy docs loaded into ChromaDB
 ```
 
----
+## Evolution from v1
 
-## Local Setup
-
-### 1. Clone and install
-
-```bash
-git clone https://github.com/Carolin16/p2p-anomaly-detection.git
-cd p2p-anomaly-detection
-pip install -r requirements.txt
-```
-
-### 2. Set environment variable
-
-```bash
-export OPENAI_API_KEY=your_key_here
-```
-
-### 3. Generate data and train the model
-
-```bash
-python data/generate_p2p_data.py
-python train.py
-```
-
-### 4. Start the FastAPI backend
-
-```bash
-uvicorn api:app --reload
-```
-
-### 5. Launch the Streamlit UI
-
-```bash
-streamlit run app.py
-```
-
----
-
-## Deployment (Hugging Face Spaces)
-
-This project is deployed across two Hugging Face Spaces.
-
-### Backend (Docker Space)
-- Space: `carolinjames/p2p-anomaly-api`
-- SDK: Docker
-- The `Dockerfile` installs dependencies and runs `python train.py` at build time to generate the model — no binary file is stored in the repo
-- Start command: `uvicorn api:app --host 0.0.0.0 --port 7860`
-- `OPENAI_API_KEY` is stored as a Space secret
-
-To redeploy:
-```bash
-git remote add hf https://YOUR_TOKEN@huggingface.co/spaces/carolinjames/p2p-anomaly-api
-git push hf main --force
-```
-
-### Frontend (Streamlit Space)
-- Space: `carolinjames/p2p-anomaly-detection-ui`
-- SDK: Streamlit
-- `API_BASE` in `app.py` points to the backend Space URL
-- README.md must include `app_file: app.py` in the HF header
-
-To redeploy:
-```bash
-git remote add hf-ui https://YOUR_TOKEN@huggingface.co/spaces/carolinjames/p2p-anomaly-detection-ui
-git push hf-ui main --force
-```
-
-### Environment variables
-| Variable | Where | Purpose |
+| | v1 P2P Anomaly Detection | v2 FinFraud Investigation Agent |
 |---|---|---|
-| `OPENAI_API_KEY` | Backend Space secret | GPT-4o API access |
+| Detection | Rule-based only | Rule-based with ML scoring |
+| Decision | Binary flag | Three-tier routing (LOW, MEDIUM, HIGH) |
+| Investigation | None | Autonomous deep investigation for HIGH risk |
+| Output | Anomaly flag with RAG explanation | Full SAR report |
+| Orchestration | None | LangGraph multi-node agent |
+| Tools | None | 4 LLM-callable tools |
 
----
+## Environment Variables
 
-## SOLID Principles Applied
-
-| Principle | Implementation |
-|---|---|
-| **SRP** | Each class has one job — validate, detect one anomaly type, or orchestrate |
-| **OCP** | Add a new detector by creating a new file — zero changes to existing code |
-| **LSP** | All detectors extend `AnomalyDetector` ABC and are fully swappable |
-| **ISP** | `RAGExplainer` is a separate class from the detectors |
-| **DIP** | `AnomalyOrchestrator` depends on the `AnomalyDetector` abstraction, not concrete classes |
+| Variable | Local | Production |
+|---|---|---|
+| `OPENAI_API_KEY` | .env file | Railway secret |
+| `BACKEND_URL` | http://localhost:8000 | Railway backend URL |
