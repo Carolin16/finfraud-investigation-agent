@@ -165,37 +165,40 @@ uvicorn api:app --reload
 streamlit run app.py
 ```
 
+## Live Demo
+
+[https://finfraud-investigation-agent.up.railway.app](https://finfraud-investigation-agent.up.railway.app)
+
 ## Deploying to Railway
 
-The backend and frontend are deployed as two separate Railway services from the same repository using separate Dockerfiles.
+The backend and frontend are deployed as two separate Railway services from the same repository.
 
-**Step 1 — Create a Railway account and install the CLI**
-```bash
-npm install -g @railway/cli
-railway login
-```
+**Step 1 — Create a Railway account**
+
+Go to [railway.app](https://railway.app) and sign up with your GitHub account.
 
 **Step 2 — Deploy the backend**
 
-1. Go to [railway.app](https://railway.app) and click New Project
-2. Select Deploy from GitHub repo and connect your repository
-3. In service settings, set the custom Dockerfile path to `Dockerfile.backend`
-4. Add environment variables in the Railway dashboard:
-   - `OPENAI_API_KEY` — your OpenAI key
-5. Railway will assign a public URL to the backend (e.g. `https://finfraud-api.up.railway.app`)
+1. Click New Project and select Deploy from GitHub repo
+2. Connect your repository
+3. Go to Variables tab and add `OPENAI_API_KEY` with your OpenAI key
+4. Go to Settings → Networking → Generate Domain and note the backend URL
 
 **Step 3 — Deploy the frontend**
 
-1. In the same Railway project, click New Service
+1. In the same Railway project click New Service
 2. Connect the same repository again
-3. Set the custom Dockerfile path to `Dockerfile.frontend`
-4. Add environment variables:
-   - `BACKEND_URL` — paste the backend URL from Step 2
-5. Railway will assign a separate public URL for the Streamlit app
+3. Go to Variables tab and add `BACKEND_URL` with the backend URL from Step 2
+4. Go to Settings → Networking → Generate Domain and set port to `8501`
 
 **Step 4 — Verify**
 
 Visit the frontend URL, select a scenario, and click Investigate. The backend warms up the BERT model in the background on first start — subsequent requests are fast.
+
+| Service | Variable | Value |
+|---|---|---|
+| Backend | `OPENAI_API_KEY` | your OpenAI key |
+| Frontend | `BACKEND_URL` | your Railway backend URL |
 
 ## Project Structure
 
