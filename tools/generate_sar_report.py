@@ -3,10 +3,7 @@ from langchain_core.tools import tool
 # which is the one method that makes the LLM aware of your tools and able to call them.
 from langchain_openai import ChatOpenAI
 
-# temperature=0 — deterministic, always picks the most likely next word. 
-# What we want for fraud investigation — consistent, factual, no hallucination.
-# temperature=1 — creative, random. Good for writing - not SAR reports
-llm = ChatOpenAI(model = "gpt-4o",temperature=0)
+
 
 @tool
 def generate_sar_report(investigation_summary : str) -> str:
@@ -19,6 +16,11 @@ def generate_sar_report(investigation_summary : str) -> str:
 
     """
 
+    # temperature=0 — deterministic, always picks the most likely next word. 
+    # What we want for fraud investigation — consistent, factual, no hallucination.
+    # temperature=1 — creative, random. Good for writing - not SAR reports
+    llm = ChatOpenAI(model = "gpt-4o",temperature=0)
+    
     prompt =  f"""You are a compliance officer writing a Suspicious Activity Report (SAR) for FinCEN.
  
     STRICT FORMAT RULES — you MUST follow these exactly:
